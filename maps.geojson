@@ -4,9 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "circle-stroked",
         "description": "<strong>Stadtflohmarkt</strong> <br>Art: Flohmarkt <br>Ort: Luxemburgerstr. 124 <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Haltestelle Weishausstraße mit den Linien 18, 142, 978<br>Eintritt: 0 Euro <br><a href='http://www.stadt-flohmarkt.de/' target='_blank'>www.stadt-flohmarkt.de </a>",
         "Name": "Stadflohmarkt",
         "Ort": "Luxemburgerstr. 124",
@@ -29,9 +26,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "circle-stroked",
         "description": "<strong>DIY Flohmarkt Balloni</strong> <br>Art: Designmarkt <br>Ort: Ehrenfeldg\\u00fcrtel 88<br>Barrierefrei: Ja <br>Outdoor/Indoor: Indoor <br>Haltestelle: Haltestelle Venloer Straße mit der Linie: 3,4,13,140,141,142 <br>Eintritt: 4 Euro <br><a href='https://diy-markt.com/portfolio_page/koeln-designmarkt/' target='_blank'>www.diy-markt./portfolio_page/koeln-designmarkt</a>\"",
         "Name": "Balloni",
         "Ort": "Ehrenfeldgürtel 88",
@@ -54,9 +48,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "circle-stroked",
         "Name": "Kölner Fahrradmarkt",
         "description": "<strong>Kölner Fahrradmarkt</strong> <br>Art: Fahrradmarkt  <br> Ort: Neptunplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Körnerstraße mit den Linien 3, 4 <br>Eintritt: 0 Euro <br><a href=http://www.fahrradmarkt-koeln.de/termine/'' target='_blank>www.fahrradmarkt-koeln.de</a>",
         "Ort": "Neptunplatz ",
@@ -79,9 +70,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#7e7e7e",
-        "marker-size": "medium",
-        "marker-symbol": "circle-stroked",
         "description": "<strong>Klettenberggürtel Flohmarkt</strong> <br>Art: Flohmarkt <br>Ort: Klettenberggrütel <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Klettenberggürtel mit der Linie 13, 18, 130 und 134 <br>Eintritt: 0 Euro <br><a href='http://troedeltipp.de/' target='_blank'>www.troedeltipp.de</a>",
         "Ort": "Klettenberggürtel",
         "Barrierefrei": "Ja",
