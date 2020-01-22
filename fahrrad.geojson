@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Fahrradmarkt",
-        "description": "<strong>Kölner Fahrradmarkt</strong> <br>Art: Fahrradmarkt  <br> Ort: Neptunplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Körnerstraße mit den Linien 3, 4 <br>Eintritt: 0 Euro <br><a href=http://www.fahrradmarkt-koeln.de/termine/' target='_blank>www.fahrradmarkt-koeln.de</a>",
+        "description": "<strong>Kölner Fahrradmarkt</strong> <br>Art: Fahrradmarkt  <br> Ort: Neptunplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Körnerstraße mit den Linien 3, 4 <br>Eintritt: 0 Euro <br><a href=http://www.fahrradmarkt-koeln.de/termine/' target='_blank'>www.fahrradmarkt-koeln.de</a>",
         "Ort": "Neptunplatz",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
