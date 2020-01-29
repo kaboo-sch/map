@@ -1,0 +1,339 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>StadtflohmarktWochenmarkt Neptunplatz</strong> <br>Art: Wochenmarkt <br>Ort: Neptunplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Körnerstraße: 3, 4<br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/artikel/05889/index.html' target='_blank'>https://www.stadt-koeln.de/artikel/05889/index.html </a>",
+        "Name": "Wochenmarkt Neptunplatz",
+        "Ort": "Neptunplatz",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Haltestelle Körnerstraße: 3, 4",
+        "Wann": "Jeden Freitag, 7 bis 14 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/artikel/05889/index.html",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.919179,
+          50.947219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Maternusplatz</strong> <br>Art: Wochenmarkt <br>Ort: Maternusplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Maternusplatz: 131, 134, 135 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/artikel/05919/index.html' target='_blank'>https://www.stadt-koeln.de/artikel/05919/index.html</a>",
+        "Ort": "Maternusplatz",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Haltestelle: Maternusplatz: 131, 134, 135",
+        "Wann": "Jeden Mittwoch und Samstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://www.stadt-koeln.de/artikel/05919/index.html",
+        "Art": "Wochenmarkt",
+        "Name": "Wochenmarkt Maternusplatz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.994100,
+          50.892721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Sürther Wochenmarkt</strong> <br>Art: Wochenmarkt <br>Ort: Marktplatz Sürth, Hauptstraße/Fronhofstraße  <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Sürth Bahnhof: 16 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/suerth-suerther-hauptstrassefrohnhofstrasse' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/suerth-suerther-hauptstrassefrohnhofstrasse</a>",
+        "Ort": "Marktplatz Sürth, Hauptstraße/Fronhofstraße",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Haltestelle: Sürth Bahnhof: 16",
+        "Wann": "Jeden Freitag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/suerth-suerther-hauptstrassefrohnhofstrasse",
+        "Art": "Wochenmarkt",
+        "Name": "Sürther Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         7.007410,
+         50.862134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Zollstock Wochenmarkt</strong> <br>Art: Wochenmarkt <br>Ort: Höninger Weg/Herthastraße <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Herthastraße: 12 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/zollstock-hoeninger-wegherthastrasse' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/zollstock-hoeninger-wegherthastrasse</a>",
+        "Ort": "Höninger Weg/Herthastraße",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Haltestelle Herthastraße: 12",
+        "Wann": "Jeden Donnerstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/zollstock-hoeninger-wegherthastrasse",
+        "Art": "Wochenmarkt",
+        "Name": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         6.940786,
+         50.913119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Longerich Wochenmarkt</strong> <br>Art: Wochenmarkt <br>Ort: Marktplatz Gartenstadt Nord <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Meerfeldstraße: 15 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/longerich-gartenstadt-nord-schlackstrassejohannes-rings-strasse' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/longerich-gartenstadt-nord-schlackstrassejohannes-rings-strasse</a>",
+        "Ort": "Marktplatz Gartenstadt Nord",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Haltestelle Meerfeldstraße 15",
+        "Wann": "Jeden Mittwoch und Samstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/longerich-gartenstadt-nord-schlackstrassejohannes-rings-strasse",
+        "Art": "Wochenmarkt",
+        "Name": "Longerich Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         6.918977,
+         50.995160
+        ]
+      }
+    },
+   {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Buchforst</strong> <br>Art: Wochenmarkt <br>Ort: Waldecker Straße <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Buchforst Waldecker Straße: 3, 159 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/buchforst-waldecker-strasse' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/buchforst-waldecker-strasse</a>",
+        "Ort": "Waldecker Straße",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Buchforst Waldecker Straße: 3, 159",
+        "Wann": "Jeden Mittwoch und Samstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/buchforst-waldecker-strasse",
+        "Art": "Wochenmarkt",
+        "Name": "Wochenmarkt Buchforst"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         7.005482,
+         50.950174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Dellbrück</strong> <br>Art: Wochenmarkt <br>Ort: Marktplatz, An der Kemperwiese <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Dellbrück Hauptstraße: 3, 18, 154, 436 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/dellbrueck-der-kemperwiese' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/dellbrueck-der-kemperwiese</a>",
+        "Ort": "Marktplatz, An der Kemperwiese",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Delbrück Hauptstraße: 3, 18, 154, 436",
+        "Wann": "Jeden Donnerstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/dellbrueck-der-kemperwiese",
+        "Art": "Wochenmarkt",
+        "Name": "Wochenmarkt Dellbrück"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         7.075187,
+         50.976482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Flittard</strong> <br>Art: Wochenmarkt <br>Ort: Marktplatz Flittard, Einstein-Straße/Eduard-Heis-Straße <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Am Feldrain: 151, 152 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/flittard-einstein-strasseeduard-heis-strasse' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/flittard-einstein-strasseeduard-heis-strasse</a>",
+        "Ort": "Marktplatz Flittard, Einstein-Straße/Eduard-Heis-Straße",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Am Feldrain: 151, 152",
+        "Wann": "Jeden Donnerstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/flittard-einstein-strasseeduard-heis-strasse",
+        "Art": "Wochenmarkt",
+        "Name": "Wochenmarkt Flittard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         6.983630,
+         50.999342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Höhenhaus</strong> <br>Art: Wochenmarkt <br>Ort: Wupperplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Am Emberg: 4, 260 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/hoehenhaus-wupperplatz' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/hoehenhaus-wupperplatz</a>",
+        "Ort": "Wupperplatz",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Am Emberg: 4, 260",
+        "Wann": "Jeden Mittwoch und Samstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/hoehenhaus-wupperplatz",
+        "Art": "Wochenmarkt",
+        "Name": "Wochenmarkt Höhenhaus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         7.034022,
+         50.989954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Holweide</strong> <br>Art: Wochenmarkt <br>Ort: Holweider Marktplatz, Bergisch Gladbacher Straße 537 <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Maria Himmelfahrt: 3, 18 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/holweide-bergisch-gladbacher-strasse' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/holweide-bergisch-gladbacher-strasse</a>",
+        "Ort": "Holweider Marktplatz, Bergisch Gladbacher Straße 537",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Maria Himmelfahrt: 3, 18",
+        "Wann": "Jeden Samstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/holweide-bergisch-gladbacher-strasse",
+        "Art": "Wochenmarkt",
+        "Name": "Wochenmarkt Holweide"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         7.044313,
+         50.969778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Mülheim Schützenplatz</strong> <br>Art: Wochenmarkt <br>Ort: Schützenplatz, Berliner Straße <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Berliner Straße: 4, 151, 152, 155, 260, 434 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/muelheim-schuetzenplatz-berliner-strasse' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/muelheim-schuetzenplatz-berliner-strasse</a>",
+        "Ort": "Schützenplatz, Berliner Straße",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Berliner Straße: 4, 151, 152, 155, 260, 434",
+        "Wann": "Jeden Dienstag und Freitag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/muelheim-schuetzenplatz-berliner-strasse",
+        "Art": "Wochenmarkt",
+        "Name": "Wochenmarkt Mülheim Schützenplatz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         7.014714,
+         50.974914
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Mülheim Wiener Platz</strong> <br>Art: Wochenmarkt <br>Ort: Wiener Platz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Wiener Platz: 4, 13, 18, 151, 152, 153, 159, 250, 260, 434 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/muelheim-wiener-platz' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/muelheim-wiener-platz</a>",
+        "Ort": "Wiener PLatz",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Wiener Platz: 4, 13, 18, 151, 152, 153, 159, 250, 260, 434",
+        "Wann": "Jeden Dienstag, Donnerstag, Samstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/muelheim-wiener-platz",
+        "Art": "Wochenmarkt",
+        "Name": "Wochenmarkt Mülheim Wiener Platz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         7.005083,
+         50.961384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Stammheim</strong> <br>Art: Wochenmarkt <br>Ort: Ricarda-Huch-Straße/Bonhoeffer-Straße <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Gisbertstraße: 155 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/stammheim-ricarda-huch-strassebonhoeffer-strasse' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/stammheim-ricarda-huch-strassebonhoeffer-strasse</a>",
+        "Ort": "Ricarda-Huch-Straße/Bonhoeffer-Straße",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Gisbertstraße: 155",
+        "Wann": "Jeden Donnerstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/stammheim-ricarda-huch-strassebonhoeffer-strasse",
+        "Art": "Wochenmarkt",
+        "Name": "Wochenmarkt Stammheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         6.993535,
+         50.985326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Niehl</strong> <br>Art: Wochenmarkt <br>Ort: Waldfriedstraße <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Niehl Sebastianstraße: 16, Weidenpescher Straße: 147 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/niehl-waldfriedstrasse' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/niehl-waldfriedstrasse</a>",
+        "Ort": "Waldfriedstraße",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Niehl Sebastianstraße: 16, Weidenpescher Straße: 147",
+        "Wann": "Jeden Donnerstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/niehl-waldfriedstrasse",
+        "Art": "Wochenmarkt",
+        "Name": "Wochenmarkt Niehl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         6.963941,
+         50.979713
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Riehler Gürtel</strong> <br>Art: Wochenmarkt <br>Ort: Riehler Gürtel <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Riehler Gürtel: 140 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/riehl-riehler-guertel' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/riehl-riehler-guertel</a>",
+        "Ort": "Riehler Gürtel",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Riehler Gürtel: 140",
+        "Wann": "Jeden Mittwoch und Samstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/riehl-riehler-guertel",
+        "Art": "Wochenmarkt",
+        "Name": "Wochenmarkt Riehler Gürtel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         6.975058,
+         50.965392
+        ]
+      }
+    }
+
+
+
+
+  ]
+}
