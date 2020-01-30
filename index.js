@@ -18,7 +18,7 @@ map.addControl(
 var url = 'https://kaboo-sch.github.io/map/fahrrad.geojson';
 map.on('load', function() {
     window.setInterval(function() {
-        map.getSource('fahrrad').setData(url);
+        map.getSource('Fahrradmarkt').setData(url);
     });
     map.loadImage(
         'Icons\\Fahrradflohmarkt.png',
@@ -27,11 +27,11 @@ map.on('load', function() {
             map.addImage('Fahrrad', image)
         });
 
-    map.addSource('fahrrad', { type: 'geojson', data: url });
+    map.addSource('Fahrradmarkt', { type: 'geojson', data: url });
     map.addLayer({
-        'id': 'fahrrad',
+        'id': 'Fahrradmarkt',
         'type': 'symbol',
-        'source': 'fahrrad',
+        'source': 'Fahrradmarkt',
         'layout': {
             'icon-image': 'Fahrrad',
             'icon-allow-overlap': true,
@@ -41,7 +41,7 @@ map.on('load', function() {
         });
 });
 
-map.on('click', 'fahrrad', function (e) {
+map.on('click', 'Fahrradmarkt', function (e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
     var description = e.features[0].properties.description;
 
@@ -55,21 +55,19 @@ map.on('click', 'fahrrad', function (e) {
         .addTo(map);
 });
 
-map.on('mouseenter', 'fahrrad', function () {
+map.on('mouseenter', 'Fahrradmarkt', function () {
     map.getCanvas().style.cursor = 'pointer';
 });
 
-map.on('mouseleave', 'fahrrad', function () {
+map.on('mouseleave', 'Fahrradmarkt', function () {
     map.getCanvas().style.cursor = '';
 
 });
 
-
-
 var url2 = 'https://kaboo-sch.github.io/map/Flohmarkt_Katrin_v02.geojson';
 map.on('load', function() {
     window.setInterval(function() {
-        map.getSource('flohmarkt').setData(url2);
+        map.getSource('Flohmarkt').setData(url2);
     });
     map.loadImage(
         'Icons\\Flohmarkt.png',
@@ -78,11 +76,11 @@ map.on('load', function() {
             map.addImage('Flohmarkt', image)
         });
 
-    map.addSource('flohmarkt', { type: 'geojson', data: url });
+    map.addSource('Flohmarkt', { type: 'geojson', data: url2 });
     map.addLayer({
-        'id': 'flohmarkt',
+        'id': 'Flohmarkt',
         'type': 'symbol',
-        'source': 'flohmarkt',
+        'source': 'Flohmarkt',
         'layout': {
             'icon-image': 'Flohmarkt',
             'icon-allow-overlap': true,
@@ -92,7 +90,8 @@ map.on('load', function() {
     });
 });
 
-map.on('click', 'flohmarkt', function (e) {
+
+map.on('click', 'Flohmarkt', function (e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
     var description = e.features[0].properties.description;
     
@@ -110,13 +109,97 @@ map.on('click', 'flohmarkt', function (e) {
 });
 
 // Change the cursor to a pointer when the mouse is over the places layer.
-map.on('mouseenter', 'flohmarkt', function () {
+map.on('mouseenter', 'Flohmarkt', function () {
     map.getCanvas().style.cursor = 'pointer';
 });
 
 // Change it back to a pointer when it leaves.
-map.on('mouseleave', 'flohmarkt', function () {
+map.on('mouseleave', 'Flohmarkt', function () {
     map.getCanvas().style.cursor = '';
 });
 
 
+var url3 = 'https://kaboo-sch.github.io/map/Wochenmarkt.geojson';
+map.on('load', function() {
+    window.setInterval(function() {
+        map.getSource('Wochenmarkt').setData(url3);
+    });
+    map.loadImage(
+        'Icons\\Wochenmarkt.png',
+        function (error, image) {
+            if (error) throw error;
+            map.addImage('Wochenmarkt', image)
+        });
+
+    map.addSource('Wochenmarkt', { type: 'geojson', data: url3 });
+    map.addLayer({
+        'id': 'Wochenmarkt',
+        'type': 'symbol',
+        'source': 'Wochenmarkt',
+        'layout': {
+            'icon-image': 'Wochenmarkt',
+            'icon-allow-overlap': true,
+            'icon-size': 0.04,
+
+        }
+    });
+});
+
+
+map.on('click', 'Wochenmarkt', function (e) {
+    var coordinates = e.features[0].geometry.coordinates.slice();
+    var description = e.features[0].properties.description;
+
+// Ensure that if the map is zoomed out such that multiple
+// copies of the feature are visible, the popup appears
+// over the copy being pointed to.
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+    }
+
+    new mapboxgl.Popup()
+        .setLngLat(coordinates)
+        .setHTML(description)
+        .addTo(map);
+});
+
+// Change the cursor to a pointer when the mouse is over the places layer.
+map.on('mouseenter', 'Wochenmarkt', function () {
+    map.getCanvas().style.cursor = 'pointer';
+});
+
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'Wochenmarkt', function () {
+    map.getCanvas().style.cursor = '';
+});
+
+
+
+var toggleableLayerIds = ['Flohmarkt', 'Fahrradmarkt', 'Wochenmarkt'];
+for (var i = 0; i < toggleableLayerIds.length; i++) {
+    var id = toggleableLayerIds[i];
+
+    var link = document.createElement('a');
+    link.href = '#';
+    link.className = 'active';
+    link.textContent = id;
+
+    link.onclick = function(e) {
+        var clickedLayer = this.textContent;
+        e.preventDefault();
+        e.stopPropagation();
+
+        var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+
+        if (visibility === 'visible') {
+            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+            this.className = '';
+        } else {
+            this.className = 'active';
+            map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+        }
+    };
+
+    var layers = document.getElementById('menu');
+    layers.appendChild(link);
+}
