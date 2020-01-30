@@ -3,9 +3,9 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
     center: [6.95, 50.93333],
-    zoom: 11.5,
+    zoom: 10.5,
     maxZoom: 16,
-    minZoom: 10,
+    minZoom: 9,
 });
 
 
@@ -203,3 +203,5 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
     var layers = document.getElementById('menu');
     layers.appendChild(link);
 }
+
+map.addControl(new mapboxgl.NavigationControl());
