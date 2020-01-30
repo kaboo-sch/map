@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'pk.eyJ1Ijoia2Fib28yMjA1IiwiYSI6ImNrNWR2NHNzMDFrcWYzbXBrMHRmNWdlYWMifQ.EBbbdu-QU0EUToCpwWmI4g';
+mapboxgl.accessToken = 'pk.eyJ1Ijoia2Fib28yMjA1IiwiYSI6ImNrNjB1amNmaDBiNWgzb21iZ29yYzlydDIifQ.CIV4EHUW6-8o6pFxQmvpLQ';
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
@@ -9,12 +9,13 @@ var map = new mapboxgl.Map({
 });
 
 
-map.addControl(
-    new MapboxGeocoder({
-        accessToken: mapboxgl.accessToken,
-        mapboxgl: mapboxgl
-    })
-);
+var geocoder = new MapboxGeocoder({
+    accessToken: mapboxgl.accessToken,
+    mapboxgl: mapboxgl
+});
+
+document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
+
 var url = 'https://kaboo-sch.github.io/map/fahrrad.geojson';
 map.on('load', function() {
     window.setInterval(function() {
