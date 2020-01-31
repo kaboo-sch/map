@@ -10,7 +10,7 @@
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
         "Wie komme ich hin?": "Haltestelle Körnerstraße: 3, 4",
-        "Wann": "Jeden Freitag, 7 bis 14 Uhr",
+        "Wann": "Jeden Dienstag und Freitag, 7 bis 14 Uhr",
         "Eintritt": "0 Euro ",
         "Link": "https://www.stadt-koeln.de/artikel/05889/index.html",
         "Art": "Wochenmarkt"
@@ -329,11 +329,30 @@
          6.975058,
          50.965392
         ]
+      },
+       {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Auerbachplatz</strong> <br>Art: Wochenmarkt <br>Ort: Auerbachplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Euskirchener Straße: 13; Zülpicher Str./Gürtel: 9<br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/artikel/05881/index.html' target='_blank'>https://www.stadt-koeln.de/artikel/05881/index.html </a>",
+        "Name": "Wochenmarkt Auerbachplatz",
+        "Ort": "Auerbachplatz",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Haltestelle Euskirchener Straße: 13; Zülpicher Str./Gürtel: 9",
+        "Wann": "Jeden Dienstag und Freitag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/artikel/05881/index.html",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.919203,
+          50.918725
+        ]
       }
+    },
     }
-
-
-
 
   ]
 }
