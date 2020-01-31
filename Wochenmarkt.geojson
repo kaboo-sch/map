@@ -329,8 +329,9 @@
          6.975058,
          50.965392
         ]
+       }
       },
-       {
+     {
       "type": "Feature",
       "properties": {
         "description": "<strong>Wochenmarkt Auerbachplatz</strong> <br>Art: Wochenmarkt <br>Ort: Auerbachplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Euskirchener Straße: 13; Zülpicher Str./Gürtel: 9<br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/artikel/05881/index.html' target='_blank'>https://www.stadt-koeln.de/artikel/05881/index.html </a>",
@@ -351,8 +352,6 @@
           50.918725
         ]
       }
-    },
-    }
-
+     },
   ]
 }
