@@ -352,6 +352,52 @@
           50.918725
         ]
       }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Hermeskeiler Platz</strong> <br>Art: Wochenmarkt <br>Ort: Hermeskeiler Platz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Hermeskeiler Platz: 9 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/artikel/05881/index.html' target='_blank'>https://www.stadt-koeln.de/artikel/05881/index.html </a>",
+        "Name": "Wochenmarkt Hermeskeiler Platz",
+        "Ort": "Hermeskeiler Platz",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Haltestelle Hermeskeiler Platz 9",
+        "Wann": "Jeden Dienstag und Freitag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/artikel/05881/index.html",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.906796,
+          50.916531
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Klettenberggürtel</strong> <br>Art: Wochenmarkt <br>Ort: Klettenberggürtel/Siebengebirgsalleee <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Sülzgürtel: 13, 18, 130, 134 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/artikel/05881/index.html' target='_blank'>https://www.stadt-koeln.de/artikel/05881/index.html </a>",
+        "Name": "Wochenmarkt Klettenberggürtel",
+        "Ort": "Klettenberggürtel/Siebensgebirgsallee",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Haltestelle Sülzgürtel: 13, 18, 130, 134",
+        "Wann": "Jeden Mittwoch, 7 bis 13 Uhr und jeden Samstag, 7 - 14 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/artikel/05881/index.html",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.927970,
+          50.909902
+        ]
+      }
      }
+    
+  
   ]
 }
