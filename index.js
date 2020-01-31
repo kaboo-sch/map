@@ -8,6 +8,7 @@ var map = new mapboxgl.Map({
     minZoom: 9,
 });
 
+map.addControl(new mapboxgl.NavigationControl());
 
 var geocoder = new MapboxGeocoder({
     accessToken: mapboxgl.accessToken,
@@ -16,11 +17,12 @@ var geocoder = new MapboxGeocoder({
 
 document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
 
-
+// Fahrradmarkt Beginn
 map.on('load', function() {
     map.addSource('Fahrradmarkt', {
         'type': 'geojson',
-        'data': 'https://kaboo-sch.github.io/map/fahrrad.geojson'
+        'data': 'https://kaboo-sch.github.io/map/fahrrad.geojson',
+
     });
 
     map.loadImage(
@@ -28,7 +30,7 @@ map.on('load', function() {
         function (error, image) {
             if (error) throw error;
             map.addImage('Fahrrad', image)
-            
+
         });
 
     map.addLayer({
@@ -39,9 +41,9 @@ map.on('load', function() {
             'icon-image': 'Fahrrad',
             'icon-allow-overlap': true,
             'icon-size': 0.04,
-
         }
         });
+
 });
 
 map.on('click', 'Fahrradmarkt', function (e) {
@@ -67,33 +69,59 @@ map.on('mouseleave', 'Fahrradmarkt', function () {
 
 });
 
- ;
+ //Fahrradmarkt Ende
+
+//Flohmarkt Beginn
 map.on('load', function() {
     map.addSource('Flohmarkt', {
         'type': 'geojson',
-        'data':'https://kaboo-sch.github.io/map/Flohmarkt_Katrin_v02.geojson'
+        'data':'https://kaboo-sch.github.io/map/Flohmarkt_Katrin_v02.geojson',
+        cluster: true,
+        clusterMaxZoom: 10,
+        clusterRadius: 50
     });
     map.loadImage(
         'Icons\\Flohmarkt.png',
         function (error, image) {
             if (error) throw error;
             map.addImage('Flohmarkt', image)
-        });
 
+        });
+    map.addLayer({
+        id: 'FlohmarktCL',
+        type: 'circle',
+        source: 'Flohmarkt',
+        filter: ['has', 'point_count'],
+        paint: {
+            'circle-color': '#ffbfbf',
+            'circle-radius': 15,
+        }
+    });
 
     map.addLayer({
-        'id': 'Flohmarkt',
-        'type': 'symbol',
-        'source': 'Flohmarkt',
-        'layout': {
+        id: 'Flohmarkt-cluster-count',
+        type: 'symbol',
+        source: 'Flohmarkt',
+        filter: ['has', 'point_count'],
+        layout: {
+            'text-field': '{point_count_abbreviated}',
+            'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+            'text-size': 12
+        }
+    });
+
+    map.addLayer({
+        id: 'Flohmarkt',
+        type: 'symbol',
+        source: 'Flohmarkt',
+        filter: ['!', ['has', 'point_count']],
+        layout: {
             'icon-image': 'Flohmarkt',
             'icon-allow-overlap': true,
             'icon-size': 0.04,
-
         }
     });
 });
-
 
 map.on('click', 'Flohmarkt', function (e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
@@ -124,10 +152,43 @@ map.on('mouseleave', 'Flohmarkt', function () {
 
 
 
+map.on('click', 'FlohmarktCL', function(e) {
+    var features = map.queryRenderedFeatures(e.point, {
+        layers: ['FlohmarktCL']
+    });
+    var clusterId = features[0].properties.cluster_id;
+    map.getSource('Flohmarkt').getClusterExpansionZoom(
+        clusterId,
+        function(err, zoom) {
+            if (err) return;
+
+            map.easeTo({
+                center: features[0].geometry.coordinates,
+                zoom: zoom
+            });
+        }
+    );
+});
+
+map.on('mouseenter', 'FlohmarktCL', function() {
+    map.getCanvas().style.cursor = 'pointer';
+});
+map.on('mouseleave', 'FlohmarktCL', function() {
+    map.getCanvas().style.cursor = '';
+});
+
+
+//Flohmarkt Ende
+
+//Wochenmarkt Beginn
+
 map.on('load', function() {
     map.addSource('Wochenmarkt', {
         'type': 'geojson',
-        'data':'https://kaboo-sch.github.io/map/Wochenmarkt.geojson'
+        'data':'https://kaboo-sch.github.io/map/Wochenmarkt.geojson',
+        cluster: true,
+        clusterMaxZoom: 12,
+        clusterRadius: 50
     });
     map.loadImage(
         'Icons\\Wochenmarkt.png',
@@ -136,51 +197,100 @@ map.on('load', function() {
             map.addImage('Wochenmarkt', image)
         });
 
-
     map.addLayer({
-        'id': 'Wochenmarkt',
-        'type': 'symbol',
-        'source': 'Wochenmarkt',
-        'layout': {
-            'icon-image': 'Wochenmarkt',
-            'icon-allow-overlap': true,
-            'icon-size': 0.04,
-
+        id: 'WochenmarktCL',
+        type: 'circle',
+        source: 'Wochenmarkt',
+        filter: ['has', 'point_count'],
+        paint: {
+            'circle-color': '#cc810e',
+            'circle-radius': 15,
         }
     });
-});
+
+    map.addLayer({
+        id: 'cluster-count',
+        type: 'symbol',
+        source: 'Wochenmarkt',
+        filter: ['has', 'point_count'],
+        layout: {
+            'text-field': '{point_count_abbreviated}',
+            'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+            'text-size': 12
+        }
+    });
+
+    map.addLayer({
+        id: 'Wochenmarkt',
+        type: 'symbol',
+        source: 'Wochenmarkt',
+        filter: ['!', ['has', 'point_count']],
+        layout: {
+        'icon-image': 'Wochenmarkt',
+            'icon-allow-overlap': true,
+            'icon-size': 0.04,
+    }
+    });
 
 
-map.on('click', 'Wochenmarkt', function (e) {
-    var coordinates = e.features[0].geometry.coordinates.slice();
-    var description = e.features[0].properties.description;
+    map.on('click', 'Wochenmarkt', function (e) {
+        var coordinates = e.features[0].geometry.coordinates.slice();
+        var description = e.features[0].properties.description;
 
 // Ensure that if the map is zoomed out such that multiple
 // copies of the feature are visible, the popup appears
 // over the copy being pointed to.
-    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-    }
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
 
-    new mapboxgl.Popup()
-        .setLngLat(coordinates)
-        .setHTML(description)
-        .addTo(map);
-});
+        new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML(description)
+            .addTo(map);
+    });
 
 // Change the cursor to a pointer when the mouse is over the places layer.
-map.on('mouseenter', 'Wochenmarkt', function () {
-    map.getCanvas().style.cursor = 'pointer';
-});
+    map.on('mouseenter', 'Wochenmarkt', function () {
+        map.getCanvas().style.cursor = 'pointer';
+    });
 
 // Change it back to a pointer when it leaves.
-map.on('mouseleave', 'Wochenmarkt', function () {
-    map.getCanvas().style.cursor = '';
+    map.on('mouseleave', 'Wochenmarkt', function () {
+        map.getCanvas().style.cursor = '';
+    });
+
+// inspect a cluster on click
+    map.on('click', 'WochenmarktCL', function(e) {
+        var features = map.queryRenderedFeatures(e.point, {
+            layers: ['WochenmarktCL']
+        });
+        var clusterId = features[0].properties.cluster_id;
+        map.getSource('Wochenmarkt').getClusterExpansionZoom(
+            clusterId,
+            function(err, zoom) {
+                if (err) return;
+
+                map.easeTo({
+                    center: features[0].geometry.coordinates,
+                    zoom: zoom
+                });
+            }
+        );
+    });
+
+    map.on('mouseenter', 'WochenmarktCL', function() {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave', 'WochenmarktCL', function() {
+        map.getCanvas().style.cursor = '';
+    });
 });
 
 
+//Wochenmarkt Ende
 
-var toggleableLayerIds = ['Flohmarkt', 'Fahrradmarkt', 'Wochenmarkt'];
+var toggleableLayerIds = ['Flohmarkt', 'Fahrradmarkt', 'Wochenmarkt',];
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
 
@@ -209,4 +319,3 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
     layers.appendChild(link);
 }
 
-map.addControl(new mapboxgl.NavigationControl());
