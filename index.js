@@ -16,19 +16,21 @@ var geocoder = new MapboxGeocoder({
 
 document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
 
-var url = 'https://kaboo-sch.github.io/map/fahrrad.geojson';
+
 map.on('load', function() {
-    window.setInterval(function() {
-        map.getSource('Fahrradmarkt').setData(url);
+    map.addSource('Fahrradmarkt', {
+        'type': 'geojson',
+        'data': 'https://kaboo-sch.github.io/map/fahrrad.geojson'
     });
+
     map.loadImage(
         'Icons\\Fahrradflohmarkt.png',
         function (error, image) {
             if (error) throw error;
             map.addImage('Fahrrad', image)
+            
         });
 
-    map.addSource('Fahrradmarkt', { type: 'geojson', data: url });
     map.addLayer({
         'id': 'Fahrradmarkt',
         'type': 'symbol',
@@ -65,10 +67,11 @@ map.on('mouseleave', 'Fahrradmarkt', function () {
 
 });
 
-var url2 = 'https://kaboo-sch.github.io/map/Flohmarkt_Katrin_v02.geojson';
+ ;
 map.on('load', function() {
-    window.setInterval(function() {
-        map.getSource('Flohmarkt').setData(url2);
+    map.addSource('Flohmarkt', {
+        'type': 'geojson',
+        'data':'https://kaboo-sch.github.io/map/Flohmarkt_Katrin_v02.geojson'
     });
     map.loadImage(
         'Icons\\Flohmarkt.png',
@@ -77,7 +80,7 @@ map.on('load', function() {
             map.addImage('Flohmarkt', image)
         });
 
-    map.addSource('Flohmarkt', { type: 'geojson', data: url2 });
+
     map.addLayer({
         'id': 'Flohmarkt',
         'type': 'symbol',
@@ -120,10 +123,11 @@ map.on('mouseleave', 'Flohmarkt', function () {
 });
 
 
-var url3 = 'https://kaboo-sch.github.io/map/Wochenmarkt.geojson';
+
 map.on('load', function() {
-    window.setInterval(function() {
-        map.getSource('Wochenmarkt').setData(url3);
+    map.addSource('Wochenmarkt', {
+        'type': 'geojson',
+        'data':'https://kaboo-sch.github.io/map/Wochenmarkt.geojson'
     });
     map.loadImage(
         'Icons\\Wochenmarkt.png',
@@ -132,7 +136,7 @@ map.on('load', function() {
             map.addImage('Wochenmarkt', image)
         });
 
-    map.addSource('Wochenmarkt', { type: 'geojson', data: url3 });
+
     map.addLayer({
         'id': 'Wochenmarkt',
         'type': 'symbol',
