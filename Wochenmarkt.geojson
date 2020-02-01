@@ -396,8 +396,138 @@
           50.909902
         ]
       }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Kitschburger Straße</strong> <br>Art: Wochenmarkt <br>Ort: Kitschburger Straße in Höhe der Friedrich-Schmidt-Straße <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Maarweg: 1, 7, 172, 173 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/artikel/05881/index.html' target='_blank'>https://www.stadt-koeln.de/artikel/05881/index.html </a>",
+        "Name": "Wochenmarkt Kitschburger Straße",
+        "Ort": "Kitschburger Straße in Höhe der Friedrich-Schmidt-Straße",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Maarweg: 1, 7, 172, 173",
+        "Wann": "Jeden Samstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/artikel/05881/index.html",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.900732,
+          50.933030
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Aachener Straße/Kitschburger Straße</strong> <br>Art: Wochenmarkt <br>Ort: Aachener Straße/Kitschburger Straße (Platz neben der Bäckerei Merzenich) <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Maarweg: 1, 7, 172, 173 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/artikel/05881/index.html' target='_blank'>https://www.stadt-koeln.de/artikel/05881/index.html </a>",
+        "Name": "Wochenmarkt Aachener Straße/Kitschburger Straße",
+        "Ort": "Aachener Straße/Kitschburger Straße (Platz neben der Bäckerei Merzenich)",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Maarweg: 1, 7, 172, 173",
+        "Wann": "Jeden Mittwoch, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/artikel/05881/index.html",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.900475,
+          50.936850
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Emil-Schreiterer-Platz</strong> <br>Art: Wochenmarkt <br>Ort: Emil-Schreiterer-Platz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Weiden Zentrum: 1, 143, 145, 149 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/artikel/05881/index.html' target='_blank'>https://www.stadt-koeln.de/artikel/05881/index.html </a>",
+        "Name": "Wochenmarkt Emil-Schreiterer-Platz",
+        "Ort": "Emil-Schreiterer-Platz",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Weiden Zentrum: 1, 143, 145, 149",
+        "Wann": "Jeden Mittwoch und Samstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/artikel/05881/index.html",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.834568,
+          50.940375
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Ehrenfelder Abendmarkt</strong> <br>Art: Wochenmarkt <br>Ort: Neptunplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Körnerstraße: 3, 4 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/artikel/68369/index.html' target='_blank'>https://www.stadt-koeln.de/artikel/68369/index.html </a>",
+        "Name": "Ehrenfelder Abendmarkt",
+        "Ort": "Neptunplatz",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Körnerstraße: 3, 4",
+        "Wann": "Jeden Mittwoch, 16 bis 21 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/artikel/68369/index.html",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.919179,
+          50.947219
+        ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Bickendorf</strong> <br>Art: Wochenmarkt <br>Ort: Parkfläche zwischen Venloer Straße, Hallenbad Bickendorf und Vitalisstraße <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Äußere Kanalstraße: 3, 4 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/artikel/05887/index.html' target='_blank'>https://www.stadt-koeln.de/artikel/05887/index.html </a>",
+        "Name": "Wochenmarkt Bickendorf",
+        "Ort": "Parkfläche zwischen Venloer Straße, Hallenbad Bickendorf und Vitalisstraße",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Äußere Kanalstraße: 3, 4",
+        "Wann": "Jeden Mittwoch und Samstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/artikel/05887/index.html",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.901007,
+          50.956958
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Görlinger Zentrum</strong> <br>Art: Wochenmarkt <br>Ort: Görlinger Zentrum <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Görlinger Zentrum: 3, 127 <br>Eintritt: 0 Euro <br><a href='https://koeln-magazin.info/wochenmarkt-koeln-bocklemuend.html' target='_blank'>https://koeln-magazin.info/wochenmarkt-koeln-bocklemuend.html </a>",
+        "Name": "Wochenmarkt Görlinger Zentrum",
+        "Ort": "Görlinger Zentrum",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Görlinger Zentrum: 3, 127",
+        "Wann": "Jeden Donnerstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://koeln-magazin.info/wochenmarkt-koeln-bocklemuend.html",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.866972,
+          50.980048
+        ]
+      }
      }
-    
-  
   ]
 }
