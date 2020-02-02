@@ -528,6 +528,226 @@
           50.980048
         ]
       }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Poll</strong> <br>Art: Wochenmarkt <br>Ort: Siegburger Straße/Rolshover Straße <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Poll Salmstraße: 7, 159 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/poll-siegburger-strasserolshover-strasse' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/poll-siegburger-strasserolshover-strasse </a>",
+        "Name": "Wochenmarkt Poll",
+        "Ort": "Siegburger Straße/Rolshover Straße",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Poll Salmstraße: 7, 159",
+        "Wann": "Jeden Freitag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/poll-siegburger-strasserolshover-strasse",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.992074,
+          50.916192
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Porz-Mitte</strong> <br>Art: Wochenmarkt <br>Ort: An der Sparkasse <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Porz Markt: 7, 151, 152, 154, 160, 161, 162 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/porz-mitte-der-sparkasse' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/porz-mitte-der-sparkasse </a>",
+        "Name": "Wochenmarkt Porz-Mitte",
+        "Ort": "An der Sparkasse",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Porz Markt: 7, 151, 152, 154, 160, 161, 162",
+        "Wann": "Jeden Dienstag, Freitag, Samstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/porz-mitte-der-sparkasse",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.058957,
+          50.884115
+        ]
+      }
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Porz-Urbach</strong> <br>Art: Wochenmarkt <br>Ort: Am Schwanebitzer Hof <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Kaiserstraße: 151, 152, 161, Waldstraße: 160, 162 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/porz-urbach-am-schwanebitzer-hof' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/porz-urbach-am-schwanebitzer-hof </a>",
+        "Name": "Wochenmarkt Porz-Urbach",
+        "Ort": "Am Schwanebitzer Hof",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Kaiserstraße: 151, 152, 161, Waldstraße: 160, 162",
+        "Wann": "Jeden Donnerstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/porz-urbach-am-schwanebitzer-hof",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.080974,
+          50.882042
+        ]
+      }
+     },
+     {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Chorweiler Liverpooler Platz</strong> <br>Art: Wochenmarkt <br>Ort: Liverpooler Platz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Chorweiler: 15, 120, 121, 122, 125, 126, S11 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/chorweiler-liverpooler-platz' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/chorweiler-liverpooler-platz </a>",
+        "Name": "Wochenmarkt Chorweiler Liverpooler Platz",
+        "Ort": "Liverpooler Platz",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Chorweiler: 15, 120, 121, 122, 125, 126, S11",
+        "Wann": "Jeden Donnerstag, 7 bis 13 Uhr, jeden Samstag, 7 bis 14:30 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/chorweiler-liverpooler-platz",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.897479,
+          51.021104
+        ]
+      }
+     },
+        {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Heimersdorf</strong> <br>Art: Wochenmarkt <br>Ort: Haselnußhof <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Heimersdorf: 15, 122, 125 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/heimersdorf-haselnusshof' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/heimersdorf-haselnusshof </a>",
+        "Name": "Wochenmarkt Heimersdorf",
+        "Ort": "Haselnußhof",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Heimersdorf: 15, 122, 125",
+        "Wann": "Jeden Mittwoch und Samstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/heimersdorf-haselnusshof",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.906548,
+          51.011394
+        ]
+      }
+     },
+        {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Apostelnkloster</strong> <br>Art: Wochenmarkt <br>Ort: Apostelnkloster <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Neumarkt: 1, 3, 4, 7, 9, 136, 146 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/altstadt-nord-apostelnkloster' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/altstadt-nord-apostelnkloster</a>",
+        "Name": "Wochenmarkt Apostelnkloster",
+        "Ort": "Apostelnkloster",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Neumarkt: 1, 3, 4, 7, 9, 136, 146",
+        "Wann": "Jeden Dienstag, 7 bis 13 Uhr, jeden Freitag, 7 bis 14 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/altstadt-nord-apostelnkloster",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.944303,
+          50.936655
+        ]
+      }
+     },
+         {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Rudolfplatz</strong> <br>Art: Wochenmarkt <br>Ort: Rudolfplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Rudolfplatz: 1, 7, 12, 15, 16, 136, 146 <br>Eintritt: 0 Euro <br><a href='http://meet-and-eat.koeln/' target='_blank'>http://meet-and-eat.koeln/</a>",
+        "Name": "Wochenmarkt Rudolfplatz",
+        "Ort": "Rudolfplatz",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Rudolfplatz: 1, 7, 12, 15, 16, 136, 146",
+        "Wann": "Jeden Donnerstag, 16 bis 21 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "http://meet-and-eat.koeln/",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.940494,
+          50.936361
+        ]
+      }
+     },
+         {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Chlodwigplatz</strong> <br>Art: Wochenmarkt <br>Ort: Chlodwigplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Chlodwigplatz: 15, 16, 17, 106, 132, 133, 142 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/altstadtsued-chlodwigplatz' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/altstadtsued-chlodwigplatz</a>",
+        "Name": "Wochenmarkt Chlodwigplatz",
+        "Ort": "Chlodwigplatz",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Chlodwigplatz: 15, 16, 17, 106, 132, 133, 142",
+        "Wann": "Jeden Donnerstag, 11 bis 18 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/altstadtsued-chlodwigplatz",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.959423,
+          50.921677
+        ]
+      }
+     },
+        {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Deutzer Freiheit</strong> <br>Art: Wochenmarkt <br>Ort: Deutzer Freiheit <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Deutzer Freiheit: 1, 9 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/deutz-deutzer-freiheit' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/deutz-deutzer-freiheit</a>",
+        "Name": "Wochenmarkt Deutzer Freiheit",
+        "Ort": "Deutzer Freiheit",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Deutzer Freiheit: 1, 9",
+        "Wann": "Jeden Freitag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/deutz-deutzer-freiheit",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.974436,
+          50.936813
+        ]
+      }
+     },
+        {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Sudermanplatz</strong> <br>Art: Wochenmarkt <br>Ort: Sudermanplatz<br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Ebertplatz: 12, 15, 16, 18, 140, 148<br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/neustadt-nord-sudermanplatz' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/neustadt-nord-sudermanplatz</a>",
+        "Name": "Wochenmarkt Sudermanplatz",
+        "Ort": "Sudermanplatz",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Ebertplatz: 12, 15, 16, 18, 140, 148",
+        "Wann": "Jeden Dienstag und Freitag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/neustadt-nord-sudermanplatz",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.954785,
+          50.951184
+        ]
+      }
      }
   ]
 }
