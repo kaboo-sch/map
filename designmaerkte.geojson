@@ -1,1 +1,50 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>DIY Design Markt</strong> <br>Art: Designmarkt <br>Ort: BALLONI <br>Barrierefrei: <br>Outdoor/Indoor: Indoor <br>Haltestelle: Köln-Ehrenfeld: S12, S13, S19, Regionalbahn; Venloer Straße Gürtel: 141, 142, 143, 3, 4, 13<br>Eintritt: 3 Euro <br><a href='DIY MARKT' target='_blank'https://diy-markt.com/portfolio_page/koeln-designmarkt/</a>",
+        "Name": "DIY Design Markt",
+        "Ort": "BALLONI",
+        "Barrierefrei": "",
+        "Outdoor/Indoor": "Indoor",
+        "Wie komme ich hin?": "Haltestelle Köln-Ehrenfeld: S12, S13, S19, Regionalbahn; Haltestelle Venloer Straße Gürtel: 141, 142, 143, 3, 4, 13",
+        "Wann": "29.03., 12 - 19 Uhr",
+        "Eintritt": "4 Euro, 3 Euro ermäßigt, Kinder unter 14 frei!",
+        "Link": "https://diy-markt.com/portfolio_page/koeln-designmarkt/",
+        "Art": "Designmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.917975,
+          50.951102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Stijlmarkt</strong> <br>Art: Lifestylemarkt <br>Ort: Carkswerk Victoria<br>Barrierefrei: ja<br>Outdoor/Indoor: Indoor<br>Haltestelle: Schanzenstraße/Schauspielhaus: 150, Keupstraße: 4<br>Eintritt: <br><a href='Stijlmarkt' target='_blank'https://stijlmarkt.de/koeln/</a>",
+        "Name": "Stijlmarkt",
+        "Ort": "Carlswerk Victoria",
+        "Barrierefrei": "ja",
+        "Outdoor/Indoor": "Indoor",
+        "Wie komme ich hin?": "Haltestelle Schanzenstraße/Schauspielhaus: 150; Haltestelle Keupstraße: 4",
+        "Wann": "14.03., 15.03., 11 - 18 Uhr",
+        "Eintritt": "5 Euro, Kinder unter 12 frei!",
+        "Link": "https://stijlmarkt.de/koeln/",
+        "Art": "Designmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.918001,
+          50.952075
+        ]
+      }
+    }
+    
+   ]
+ }
