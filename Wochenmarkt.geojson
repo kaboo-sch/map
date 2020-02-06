@@ -747,6 +747,115 @@
           6.954785,
           50.951184
         ]
+      },
+           {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Kalker Post</strong> <br>Art: Wochenmarkt <br>Ort: Kalker Post<br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Kalk-Post: 1, 9, 159, 171, 179, 193<br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/kalk-der-kalker-post' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/kalk-der-kalker-post</a>",
+        "Name": "Wochenmarkt Kalker Post",
+        "Ort": "Kalker Post",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Kalk-Post: 1, 9, 159, 171, 179, 193",
+        "Wann": "Jeden Samstag, 8 bis 15 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/kalk-der-kalker-post",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.998893,
+          50.937279
+        ]
+      }
+     },
+         {
+    "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Olpener Straße</strong> <br>Art: Wochenmarkt <br>Ort: Olpener Straße, zwischen Pohlstadtsweg und Am Gräfenhof<br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Brück Mauspfad: 1, 154<br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/alt-brueck-olpener-strasse' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/alt-brueck-olpener-strasse</a>",
+        "Name": "Wochenmarkt Olpener Straße",
+        "Ort": "Olpener Straße, zwischen Pohlstadtsweg und Am Gräfenhof",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Haltestelle Brück Mauspfad: 1, 154",
+        "Wann": "Jeden Dienstag und Freitag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/alt-brueck-olpener-strasse",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.076038,
+          50.944884
+        ]
+      }
+     },
+      {
+    "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Humboldt-Gremberg</strong> <br>Art: Wochenmarkt <br>Ort: Gremberger Straße/Odenwaldstraße/Esserstraße/Taunusstraße<br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Esserstraße: 153; Haltestelle: Trimbornstraße: S12, S13, S19, Regionalbahn, 159<br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/humboldt-gremberg-gremberger-strasse' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/humboldt-gremberg-gremberger-strasse</a>",
+        "Name": "Wochenmarkt Humboldt-Gremberg",
+        "Ort": "Gremberger Straße/Odenwaldstraße/Esserstraße/Taunusstraße",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Haltestelle Esserstraße: 153; Halstelstelle: Trimbornstraße: S12, S13, S19, Regionalbahn, 159",
+        "Wann": "Jeden Dienstag und Freitag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/humboldt-gremberg-gremberger-strasse",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.996646,
+          50.930459
+        ]
+      }
+     },
+    {
+    "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt St. Adelheid</strong> <br>Art: Wochenmarkt <br>Ort: An St. Adelheid <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Straßburger Platz: 157 <br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/neu-brueck-st-adelheid' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/neu-brueck-st-adelheid</a>",
+        "Name": "Wochenmarkt St. Adelheid",
+        "Ort": "An St. Adelheid ",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Straßburger Platz: 157",
+        "Wann": "Jeden Donnerstag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/neu-brueck-st-adelheid",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.060989,
+          50.935075
+        ]
+      }
+     },
+      {
+    "type": "Feature",
+      "properties": {
+        "description": "<strong>Wochenmarkt Vingst</strong> <br>Art: Wochenmarkt <br>Ort: Ostheimer Straße/Sigrid-Undset-Straße <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Vingst: 9<br>Eintritt: 0 Euro <br><a href='https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/vingst-ostheimer-strasse' target='_blank'>https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/neu-brueck-st-adelheid</a>",
+        "Name": "Wochenmarkt St. Adelheid",
+        "Ort": "Ostheimer Straße/Sigrid-Undset-Straße",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Vingst: 9",
+        "Wann": "Jeden Dienstag und Freitag, 7 bis 13 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.stadt-koeln.de/wirtschaft/maerkte/wochenmaerkte/vingst-ostheimer-strasse",
+        "Art": "Wochenmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.024454,
+          50.933516
+        ]
       }
      }
   ]
