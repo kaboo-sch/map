@@ -44,28 +44,6 @@
           50.952075
         ]
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "description": "<strong>Der Grüne Markt</strong> <br>Art: Lifestylemarkt <br>Ort: Bumann & SOHN<br>Barrierefrei: ja<br>Outdoor/Indoor: Indoor&Outdoor <br>Haltestelle: Köln-Ehrenfeld: S12, S13, S19, Regionalbahn; Venloer Straße Gürtel: 141, 142, 143, 3, 4, 13<br>Eintritt: <br><a href='Facebook' target='_blank'https://www.facebook.com/events/491077365086591/</a>",
-        "Name": "Der Grüne Markt",
-        "Ort": "Bumann & SOHN",
-        "Barrierefrei": "ja",
-        "Outdoor/Indoor": "Indoor&Outdoor",
-        "Wie komme ich hin?": "Haltestelle Köln-Ehrenfeld: S12, S13, S19, Regionalbahn; Haltestelle Venloer Straße Gürtel: 141, 142, 143, 3, 4, 13",
-        "Wann": "05.04., 12 - 19 Uhr",
-        "Eintritt": "",
-        "Link": "https://www.facebook.com/events/491077365086591/",
-        "Art": "Lifestylemarkt"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.918001,
-          50.952075
-        ]
-      }
     }
     
    ]
