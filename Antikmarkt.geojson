@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Antikmarkt Rodenkirchen</strong> <br>Art: Antikmarkt <br>Ort: Maternusplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Maternusplatz: 131, 134, 135<br>Eintritt: 0 Euro <br><a href='https://www.marktcom.de/veranstaltung/antikmarkt-rodenkirchen-in-50996-koeln-rodenkirchen' target='_blank'>https://www.marktcom.de/veranstaltung/antikmarkt-rodenkirchen-in-50996-koeln-rodenkirchen </a>",
+        "Name": "Antikmarkt Rodenkirchen",
+        "Ort": "Maternusplatz",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Haltestelle Maternusplatz 131, 134, 135",
+        "Wann": "27. September 2020. 10 bis 18 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.marktcom.de/veranstaltung/antikmarkt-rodenkirchen-in-50996-koeln-rodenkirchen",
+        "Art": "Antikmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.994100,
+          50.892721
+        ]
+      }
+    }
+
+     ]
+}
