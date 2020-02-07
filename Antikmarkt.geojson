@@ -13,7 +13,7 @@
         "Wann": "27.09.20, 10 bis 18 Uhr",
         "Eintritt": "0 Euro ",
         "Link": "https://www.marktcom.de/veranstaltung/antikmarkt-rodenkirchen-in-50996-koeln-rodenkirchen",
-        "Art": "Antikmarkt",
+        "Art": "Antikmarkt"
       },
       "geometry": {
         "type": "Point",
@@ -35,7 +35,7 @@
         "Wann": "15.03., 20.09., 11 bis 18 Uhr",
         "Eintritt": "5 Euro",
         "Link": "https://coelln-antik-design.de/?page_id=27",
-        "Art": "Antikmarkt",
+        "Art": "Antikmarkt"
       },
       "geometry": {
         "type": "Point",
@@ -57,7 +57,7 @@
         "Wann": "24.04 - 26.04., 09.10. - 11.10.",
         "Eintritt": "0 Euro",
         "Link": "https://www.coelln-konzept.de/markt/markt.php?mid=p6",
-        "Art": "Antikmarkt",
+        "Art": "Antikmarkt"
       },
       "geometry": {
         "type": "Point",
@@ -79,7 +79,7 @@
         "Wann": "22.03., 12./13.04, 31.05/01.06., 28.06., 25./26.07., 29./30.08., 20.09., 24./25.10., 11 bis 18 Uhr",
         "Eintritt": "0 Euro",
         "Link": "https://www.coelln-konzept.de/markt/markt.php?mid=altstadt",
-        "Art": "Antikmarkt",
+        "Art": "Antikmarkt"
       },
       "geometry": {
         "type": "Point",
@@ -101,7 +101,7 @@
         "Wann": "09./10.05.,12./13.09., 11 bis 18 Uhr",
         "Eintritt": "0 Euro",
         "Link": "https://www.coelln-konzept.de/markt/markt.php?mid=altstadt",
-        "Art": "Antikmarkt", 
+        "Art": "Antikmarkt" 
       },
       "geometry": {
         "type": "Point",
@@ -110,8 +110,50 @@
           50.94520634493921
         ]
       }
-     }
-          
+     },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Antikmarkt auf dem Neumarkt</strong> <br>Art: Antikmarkt<br>Ort: Neumarkt <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Neumarkt: 1, 3, 4, 7, 9, 16, 18, 136, 146 <br>Eintritt: 0 Euro <br><a href='https://coelln-antik-design.de/?page_id=353' target='_blank'>https://coelln-antik-design.de/?page_id=353</a>",
+        "Name": "Antikmarkt auf dem Neumarkt",
+        "Ort": "Neumarkt",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Haltestelle Neumarkt: 1, 3, 4, 7, 9, 16, 18, 136, 146",
+        "Wann": "27.-29.03., 04.-06.09., 11 bis 18 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://coelln-antik-design.de/?page_id=353",
+        "Art": "Antikmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+        6.947716,
+          50.936047
+        ]
+      }     
+    },
+{
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Antikmarkt auf Kölner Gürzenich</strong> <br>Art: Antikmarkt<br>Ort: Gürzenich <br>Barrierefrei: Keine Informationen <br>Outdoor/Indoor: Indoor <br>Haltestelle Heumarkt: 1, 5, 7, 9, 106, 132, 133, 250, 260, 978 <br>Eintritt: 0 Euro <br><a href='https://coelln-antik-design.de/?page_id=13' target='_blank'>https://coelln-antik-design.de/?page_id=13</a>",
+        "Name": "Antikmarkt am Kölner Gürzenich",
+        "Ort": "Gürzenich",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Haltestelle Heumarkt: 1, 5, 7, 9, 106, 132, 133, 250, 260, 978",
+        "Wann": "01.03., 08.11., 11 bis 18 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://coelln-antik-design.de/?page_id=13",
+        "Art": "Antikmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+        6.958621,
+          50.936734
+        ]
+      }      
     } 
   ]
 }
