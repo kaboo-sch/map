@@ -22,7 +22,107 @@
           50.892721
         ]
       }
-    }
+    },
+    {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Antikmarkt in der Kölner Flora</strong> <br>Art: Antikmarkt <br>Ort: Flora Köln <br>Barrierefrei:  <br>Outdoor/Indoor: Indoor <br>Haltestelle: Zoo/Flora: 16, 18<br>Eintritt: 5 Euro <br><a href='https://coelln-antik-design.de/?page_id=27' target='_blank'>https://coelln-antik-design.de/?page_id=27 </a>",
+        "Name": "Antikmarkt in der Kölner Flora",
+        "Ort": "Flora Köln",
+        "Barrierefrei": "Keine Information",
+        "Outdoor/Indoor": "Indoor",
+        "Wie komme ich hin?": "Zoo/Flora: 16, 18",
+        "Wann": "15. März, 20. September 2020, 11 bis 18 Uhr",
+        "Eintritt": "5 Euro ",
+        "Link": "https://coelln-antik-design.de/?page_id=27",
+        "Art": "Antikmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.971107,
+          50.960311
+        ]
+      }
+    },
+    {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Antikmarkt am Rudolfplatz</strong> <br>Art: Antikmarkt <br>Ort: Rudolfplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Rudolfplatz: 1, 7, 12, 15, 16, 136, 146<br>Eintritt: 0 Euro <br><a href='https://www.coelln-konzept.de/markt/markt.php?mid=p6' target='_blank'>https://www.coelln-konzept.de/markt/markt.php?mid=p6 </a>",
+        "Name": "Antikmarkt Rudolfplatz",
+        "Ort": "Rudolfplatz",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Rudolfplatz: 1, 7, 12, 15, 16, 136, 146",
+        "Wann": "24.04 - 26.04., 09.10. - 11.10.",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.coelln-konzept.de/markt/markt.php?mid=p6",
+        "Art": "Antikmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.940494,
+          50.936361
+        ]
+      }
+    },
+     {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Antikmarkt Kölner Altstadt</strong> <br>Art: Antikmarkt <br>Ort: Rheinpromenade <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Heumarkt: 1, 5, 7, 9, 132, 133, Dom/Hbf: 5, 16, 18, 132, 133, S6, S11, S12, S13, S19<br>Eintritt: 0 Euro <br><a href='https://www.coelln-konzept.de/markt/markt.php?mid=altstadt' target='_blank'>https://www.coelln-konzept.de/markt/markt.php?mid=altstadt </a>",
+        "Name": "Antikmarkt Kölner Altstadt",
+        "Ort": "Rheinpromenade",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Heumarkt: 1, 5, 7, 9, 132, 133, Dom/Hbf: 5, 16, 18, 132, 133, S6, S11, S12, S13, S19",
+        "Wann": "22.03., 12./13.04, 31.05/01.06., 28.06., 25./26.07., 29./30.08., 20.09., 24./25.10., 11 bis 18 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.coelln-konzept.de/markt/markt.php?mid=altstadt",
+        "Art": "Antikmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.963766,
+          50.945317
+        ]
+      }
+    },
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Markt der schönen Dinge</strong> <br>Art: Antikmarkt <br>Ort: Rheinpromenade <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Heumarkt: 1, 5, 7, 9, 132, 133, Dom/Hbf: 5, 16, 18, 132, 133, S6, S11, S12, S13, S19<br>Eintritt: 0 Euro <br><a href='https://www.coelln-konzept.de/markt/markt.php?mid=altstadt' target='_blank'>https://www.coelln-konzept.de/markt/markt.php?mid=altstadt </a>",
+        "Name": "Markt der schönen Dinge",
+        "Ort": "Rheinpromenade",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Heumarkt: 1, 5, 7, 9, 132, 133, Dom/Hbf: 5, 16, 18, 132, 133, S6, S11, S12, S13, S19",
+        "Wann": "09./10.05.,12./13.09., 11 bis 18 Uhr",
+        "Eintritt": "0 Euro ",
+        "Link": "https://www.coelln-konzept.de/markt/markt.php?mid=altstadt",
+        "Art": "Antikmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.963766,
+          50.945317
+        ]
+      }
+    }  
 
      ]
 }
