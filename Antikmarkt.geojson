@@ -81,7 +81,6 @@
         "Eintritt": "0 Euro",
         "Link": "https://www.coelln-konzept.de/markt/markt.php?mid=altstadt",
         "Art": "Antikmarkt",
-        
       },
       "geometry": {
         "type": "Point",
@@ -103,8 +102,7 @@
         "Wann": "09./10.05.,12./13.09., 11 bis 18 Uhr",
         "Eintritt": "0 Euro",
         "Link": "https://www.coelln-konzept.de/markt/markt.php?mid=altstadt",
-        "Art": "Antikmarkt",
-        
+        "Art": "Antikmarkt", 
       },
       "geometry": {
         "type": "Point",
