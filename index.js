@@ -22,7 +22,6 @@ map.on('load', function() {
     map.addSource('Fahrradmarkt', {
         'type': 'geojson',
         'data': 'https://kaboo-sch.github.io/map/fahrrad.geojson',
-
     });
 
     map.loadImage(
@@ -30,7 +29,6 @@ map.on('load', function() {
         function (error, image) {
             if (error) throw error;
             map.addImage('Fahrrad', image)
-
         });
 
     map.addLayer({
@@ -43,7 +41,6 @@ map.on('load', function() {
             'icon-size': 0.04,
         }
         });
-
 });
 
 map.on('click', 'Fahrradmarkt', function (e) {
@@ -66,7 +63,6 @@ map.on('mouseenter', 'Fahrradmarkt', function () {
 
 map.on('mouseleave', 'Fahrradmarkt', function () {
     map.getCanvas().style.cursor = '';
-
 });
 
  //Fahrradmarkt Ende
@@ -80,13 +76,14 @@ map.on('load', function() {
         clusterMaxZoom: 10,
         clusterRadius: 50
     });
+
     map.loadImage(
         'Icons\\Flohmarkt.png',
         function (error, image) {
             if (error) throw error;
             map.addImage('Flohmarkt', image)
-
         });
+
     map.addLayer({
         id: 'FlohmarktCL',
         type: 'circle',
@@ -149,7 +146,6 @@ map.on('mouseenter', 'Flohmarkt', function () {
 map.on('mouseleave', 'Flohmarkt', function () {
     map.getCanvas().style.cursor = '';
 });
-
 
 
 map.on('click', 'FlohmarktCL', function(e) {
@@ -229,7 +225,7 @@ map.on('load', function() {
         'icon-image': 'Wochenmarkt',
             'icon-allow-overlap': true,
             'icon-size': 0.04,
-    }
+        }
     });
 
 
@@ -263,10 +259,10 @@ map.on('load', function() {
 // inspect a cluster on click
     map.on('click', 'WochenmarktCL', function(e) {
         var features = map.queryRenderedFeatures(e.point, {
-            layers: ['WochenmarktCL']
+            layers: ['Wochenmarkt']
         });
         var clusterId = features[0].properties.cluster_id;
-        map.getSource('Wochenmarkt').getClusterExpansionZoom(
+        map.getSource('WochenmarktCL').getClusterExpansionZoom(
             clusterId,
             function(err, zoom) {
                 if (err) return;
@@ -287,10 +283,223 @@ map.on('load', function() {
     });
 });
 
+//Antikmarkt Anfang
+map.on('load', function() {
+    map.addSource('Antikmarkt', {
+        'type': 'geojson',
+        'data':'https://kaboo-sch.github.io/map/Antikmarkt.geojson',
+        cluster: true,
+        clusterMaxZoom: 10,
+        clusterRadius: 50
+    });
 
-//Wochenmarkt Ende
+    map.loadImage(
+        'Icons\\Antikmarkt.png',
+        function (error, image) {
+            if (error) throw error;
+            map.addImage('Antikmarkt', image)
+        });
 
-var toggleableLayerIds = ['Flohmarkt', 'Fahrradmarkt', 'Wochenmarkt',];
+    map.addLayer({
+        id: 'AntikmarktCL',
+        type: 'circle',
+        source: 'Antikmarkt',
+        filter: ['has', 'point_count'],
+        paint: {
+            'circle-color': '#662626',
+            'circle-radius': 15,
+        }
+    });
+
+    map.addLayer({
+        id: 'Antikmarkt-cluster-count',
+        type: 'symbol',
+        source: 'Antikmarkt',
+        filter: ['has', 'point_count'],
+        layout: {
+            'text-field': '{point_count_abbreviated}',
+            'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+            'text-size': 12
+        }
+    });
+
+    map.addLayer({
+        id: 'Antikmarkt',
+        type: 'symbol',
+        source: 'Antikmarkt',
+        filter: ['!', ['has', 'point_count']],
+        layout: {
+            'icon-image': 'Antikmarkt',
+            'icon-allow-overlap': true,
+            'icon-size': 0.04,
+        }
+    });
+});
+
+map.on('click', 'Antikmarkt', function (e) {
+    var coordinates = e.features[0].geometry.coordinates.slice();
+    var description = e.features[0].properties.description;
+
+// Ensure that if the map is zoomed out such that multiple
+// copies of the feature are visible, the popup appears
+// over the copy being pointed to.
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+    }
+
+    new mapboxgl.Popup()
+        .setLngLat(coordinates)
+        .setHTML(description)
+        .addTo(map);
+});
+
+// Change the cursor to a pointer when the mouse is over the places layer.
+map.on('mouseenter', 'Antikmarkt', function () {
+    map.getCanvas().style.cursor = 'pointer';
+});
+
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'Antikmarkt', function () {
+    map.getCanvas().style.cursor = '';
+});
+
+
+map.on('click', 'AntikmarktCL', function(e) {
+    var features = map.queryRenderedFeatures(e.point, {
+        layers: ['FlohmarktCL']
+    });
+    var clusterId = features[0].properties.cluster_id;
+    map.getSource('Antikmarkt').getClusterExpansionZoom(
+        clusterId,
+        function(err, zoom) {
+            if (err) return;
+
+            map.easeTo({
+                center: features[0].geometry.coordinates,
+                zoom: zoom
+            });
+        }
+    );
+});
+
+map.on('mouseenter', 'AntikmarktCL', function() {
+    map.getCanvas().style.cursor = 'pointer';
+});
+map.on('mouseleave', 'AntikmarktCL', function() {
+    map.getCanvas().style.cursor = '';
+});
+
+map.on('load', function() {
+    map.addSource('Designmarkt', {
+        'type': 'geojson',
+        'data':'https://kaboo-sch.github.io/map/designmaerkte.geojson',
+        cluster: true,
+        clusterMaxZoom: 10,
+        clusterRadius: 50
+    });
+
+    map.loadImage(
+        'Icons\\Designmarkt.png',
+        function (error, image) {
+            if (error) throw error;
+            map.addImage('Designmarkt', image)
+        });
+
+    map.addLayer({
+        id: 'DesignmarktCL',
+        type: 'circle',
+        source: 'Designmarkt',
+        filter: ['has', 'point_count'],
+        paint: {
+            'circle-color': '#cc0d5a',
+            'circle-radius': 15,
+        }
+    });
+
+    map.addLayer({
+        id: 'Designmarkt-cluster-count',
+        type: 'symbol',
+        source: 'Designmarkt',
+        filter: ['has', 'point_count'],
+        layout: {
+            'text-field': '{point_count_abbreviated}',
+            'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+            'text-size': 12
+        }
+    });
+
+    map.addLayer({
+        id: 'Designmarkt',
+        type: 'symbol',
+        source: 'Designmarkt',
+        filter: ['!', ['has', 'point_count']],
+        layout: {
+            'icon-image': 'Designmarkt',
+            'icon-allow-overlap': true,
+            'icon-size': 0.04,
+        }
+    });
+});
+
+map.on('click', 'Designmarkt', function (e) {
+    var coordinates = e.features[0].geometry.coordinates.slice();
+    var description = e.features[0].properties.description;
+
+// Ensure that if the map is zoomed out such that multiple
+// copies of the feature are visible, the popup appears
+// over the copy being pointed to.
+   /* while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+    }*/
+
+    new mapboxgl.Popup()
+        .setLngLat(coordinates)
+        .setHTML(description)
+        .addTo(map);
+});
+
+// Change the cursor to a pointer when the mouse is over the places layer.
+map.on('mouseenter', 'Designmarkt', function () {
+    map.getCanvas().style.cursor = 'pointer';
+});
+
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'Designmarkt', function () {
+    map.getCanvas().style.cursor = '';
+});
+
+
+map.on('click', 'DesignmarktCL', function(e) {
+    var features = map.queryRenderedFeatures(e.point, {
+        layers: ['FlohmarktCL']
+    });
+    var clusterId = features[0].properties.cluster_id;
+    map.getSource('Designmarkt').getClusterExpansionZoom(
+        clusterId,
+        function(err, zoom) {
+            if (err) return;
+
+            map.easeTo({
+                center: features[0].geometry.coordinates,
+                zoom: zoom
+            });
+        }
+    );
+});
+
+map.on('mouseenter', 'DesignmarktCL', function() {
+    map.getCanvas().style.cursor = 'pointer';
+});
+map.on('mouseleave', 'DesignmarktCL', function() {
+    map.getCanvas().style.cursor = '';
+});
+
+
+//Antikmarkt Ende
+
+
+
+var toggleableLayerIds = ['Flohmarkt', 'Fahrradmarkt', 'Wochenmarkt', 'Antikmarkt', 'Designmarkt'];
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
 
