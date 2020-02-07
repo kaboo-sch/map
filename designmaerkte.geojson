@@ -44,6 +44,28 @@
           50.964893605993645
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Kunst.Hand.Werk</strong> <br>Art: Designmarkt <br>Ort: Rufffactory<br>Barrierefrei: Keine Information<br>Outdoor/Indoor: Indoor<br>Haltestelle: Leyendecker Str.: 3, 4<br>Eintritt: 3 Euro<br><a href='Kunst.Hand.Werk' target='_blank'https://www.koelner.de/sonstiges/termine/kunst-hand-werk-2020.578226/</a>",
+        "Name": "Kunst.Hand.Werk",
+        "Ort": "Rufffactory",
+        "Barrierefrei": "ja",
+        "Outdoor/Indoor": "Indoor",
+        "Wie komme ich hin?": "Haltestelle: Leyendecker Str.: 3, 4",
+        "Wann": "21.03., 22.03., ab 11 Uhr",
+        "Eintritt": "3 Euro",
+        "Link": "https://www.koelner.de/sonstiges/termine/kunst-hand-werk-2020.578226/",
+        "Art": "Designmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+           6.911139,
+          50.956284
+        ]
+      }
     }
     
    ]
