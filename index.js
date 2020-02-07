@@ -17,6 +17,14 @@ var geocoder = new MapboxGeocoder({
 
 document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
 
+map.addControl(
+    new mapboxgl.GeolocateControl({
+        positionOptions: {
+            enableHighAccuracy: true
+        },
+        trackUserLocation: true
+    })
+);
 // Fahrradmarkt Beginn
 map.on('load', function() {
     map.addSource('Fahrradmarkt', {
@@ -56,6 +64,9 @@ map.on('click', 'Fahrradmarkt', function (e) {
         .setHTML(description)
         .addTo(map);
 });
+map.on('click', 'Fahrradmarkt', function(e) {
+    map.flyTo({ center: e.features[0].geometry.coordinates });
+});
 
 map.on('mouseenter', 'Fahrradmarkt', function () {
     map.getCanvas().style.cursor = 'pointer';
@@ -74,7 +85,7 @@ map.on('load', function() {
         'data':'https://kaboo-sch.github.io/map/Flohmarkt_Katrin_v02.geojson',
         cluster: true,
         clusterMaxZoom: 10,
-        clusterRadius: 50
+        clusterRadius: 40
     });
 
     map.loadImage(
@@ -91,7 +102,8 @@ map.on('load', function() {
         filter: ['has', 'point_count'],
         paint: {
             'circle-color': '#ffbfbf',
-            'circle-radius': 15,
+            'circle-radius': 18,
+
         }
     });
 
@@ -103,7 +115,8 @@ map.on('load', function() {
         layout: {
             'text-field': '{point_count_abbreviated}',
             'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
-            'text-size': 12
+            'text-size': 12,
+
         }
     });
 
@@ -136,7 +149,9 @@ map.on('click', 'Flohmarkt', function (e) {
         .setHTML(description)
         .addTo(map);
 });
-
+map.on('click', 'Flohmarkt', function(e) {
+    map.flyTo({ center: e.features[0].geometry.coordinates });
+});
 // Change the cursor to a pointer when the mouse is over the places layer.
 map.on('mouseenter', 'Flohmarkt', function () {
     map.getCanvas().style.cursor = 'pointer';
@@ -183,8 +198,8 @@ map.on('load', function() {
         'type': 'geojson',
         'data':'https://kaboo-sch.github.io/map/Wochenmarkt.geojson',
         cluster: true,
-        clusterMaxZoom: 12,
-        clusterRadius: 50
+        clusterMaxZoom: 13,
+        clusterRadius: 45
     });
     map.loadImage(
         'Icons\\Wochenmarkt.png',
@@ -200,7 +215,7 @@ map.on('load', function() {
         filter: ['has', 'point_count'],
         paint: {
             'circle-color': '#cc810e',
-            'circle-radius': 15,
+            'circle-radius': 18,
         }
     });
 
@@ -228,7 +243,9 @@ map.on('load', function() {
         }
     });
 
-
+    map.on('click', 'Wochenmarkt', function(e) {
+        map.flyTo({ center: e.features[0].geometry.coordinates });
+    });
     map.on('click', 'Wochenmarkt', function (e) {
         var coordinates = e.features[0].geometry.coordinates.slice();
         var description = e.features[0].properties.description;
@@ -259,10 +276,10 @@ map.on('load', function() {
 // inspect a cluster on click
     map.on('click', 'WochenmarktCL', function(e) {
         var features = map.queryRenderedFeatures(e.point, {
-            layers: ['Wochenmarkt']
+            layers: ['WochenmarktCL']
         });
         var clusterId = features[0].properties.cluster_id;
-        map.getSource('WochenmarktCL').getClusterExpansionZoom(
+        map.getSource('Wochenmarkt').getClusterExpansionZoom(
             clusterId,
             function(err, zoom) {
                 if (err) return;
@@ -290,7 +307,7 @@ map.on('load', function() {
         'data':'https://kaboo-sch.github.io/map/Antikmarkt.geojson',
         cluster: true,
         clusterMaxZoom: 10,
-        clusterRadius: 50
+        clusterRadius: 25
     });
 
     map.loadImage(
@@ -307,7 +324,7 @@ map.on('load', function() {
         filter: ['has', 'point_count'],
         paint: {
             'circle-color': '#662626',
-            'circle-radius': 15,
+            'circle-radius': 18,
         }
     });
 
@@ -334,6 +351,9 @@ map.on('load', function() {
             'icon-size': 0.04,
         }
     });
+});
+map.on('click', 'Antikmarkt', function(e) {
+    map.flyTo({ center: e.features[0].geometry.coordinates });
 });
 
 map.on('click', 'Antikmarkt', function (e) {
@@ -366,7 +386,7 @@ map.on('mouseleave', 'Antikmarkt', function () {
 
 map.on('click', 'AntikmarktCL', function(e) {
     var features = map.queryRenderedFeatures(e.point, {
-        layers: ['FlohmarktCL']
+        layers: ['AntikmarktCL']
     });
     var clusterId = features[0].properties.cluster_id;
     map.getSource('Antikmarkt').getClusterExpansionZoom(
@@ -395,7 +415,7 @@ map.on('load', function() {
         'data':'https://kaboo-sch.github.io/map/designmaerkte.geojson',
         cluster: true,
         clusterMaxZoom: 10,
-        clusterRadius: 50
+        clusterRadius: 25
     });
 
     map.loadImage(
@@ -412,7 +432,7 @@ map.on('load', function() {
         filter: ['has', 'point_count'],
         paint: {
             'circle-color': '#cc0d5a',
-            'circle-radius': 15,
+            'circle-radius': 18,
         }
     });
 
@@ -423,8 +443,8 @@ map.on('load', function() {
         filter: ['has', 'point_count'],
         layout: {
             'text-field': '{point_count_abbreviated}',
-            'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
-            'text-size': 12
+            'text-font': ['Corbal', 'Corbal'],
+            'text-size': 18,
         }
     });
 
@@ -448,14 +468,17 @@ map.on('click', 'Designmarkt', function (e) {
 // Ensure that if the map is zoomed out such that multiple
 // copies of the feature are visible, the popup appears
 // over the copy being pointed to.
-   /* while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-    }*/
+   }
 
     new mapboxgl.Popup()
         .setLngLat(coordinates)
         .setHTML(description)
         .addTo(map);
+});
+map.on('click', 'Designmarkt', function(e) {
+    map.flyTo({ center: e.features[0].geometry.coordinates });
 });
 
 // Change the cursor to a pointer when the mouse is over the places layer.
@@ -469,9 +492,11 @@ map.on('mouseleave', 'Designmarkt', function () {
 });
 
 
+
+
 map.on('click', 'DesignmarktCL', function(e) {
     var features = map.queryRenderedFeatures(e.point, {
-        layers: ['FlohmarktCL']
+        layers: ['DesignmarktCL']
     });
     var clusterId = features[0].properties.cluster_id;
     map.getSource('Designmarkt').getClusterExpansionZoom(
@@ -506,7 +531,7 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
     var link = document.createElement('a');
     link.href = '#';
     link.className = 'active';
-    link.textContent = id;
+    link.textContent = id ;
 
     link.onclick = function(e) {
         var clickedLayer = this.textContent;
