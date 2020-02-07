@@ -112,6 +112,7 @@
         6.963915824890137,
           50.94520634493921
         ]
+      }
       },
           {
       "type": "Feature",
@@ -125,8 +126,7 @@
         "Wann": "27.-29.03., 04.-06.09., 11 bis 18 Uhr",
         "Eintritt": "0 Euro",
         "Link": "https://coelln-antik-design.de/?page_id=353",
-        "Art": "Antikmarkt",
-        
+        "Art": "Antikmarkt", 
       },
       "geometry": {
         "type": "Point",
@@ -149,7 +149,6 @@
         "Eintritt": "0 Euro",
         "Link": "https://coelln-antik-design.de/?page_id=13",
         "Art": "Antikmarkt",
-        
       },
       "geometry": {
         "type": "Point",
