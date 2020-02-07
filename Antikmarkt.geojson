@@ -27,7 +27,7 @@
       "type": "Feature",
       "properties": {
         "description": "<strong>Antikmarkt in der Kölner Flora</strong> <br>Art: Antikmarkt<br>Ort: Kölner Flora <br>Barrierefrei: Keine Information <br>Outdoor/Indoor: Indoor <br>Haltestelle: Zoo/Flora: 16, 18 <br>Eintritt: 5 Euro <br><a href='https://coelln-antik-design.de/?page_id=27' target='_blank'>https://coelln-antik-design.de/?page_id=27</a>",
-        "Name": "Antikmarkt in der Kölner Flora"
+        "Name": "Antikmarkt in der Kölner Flora",
         "Ort": "Kölner Flora",
         "Barrierefrei": "Keine Information",
         "Outdoor/Indoor": "Indoor",
@@ -49,7 +49,7 @@
       "type": "Feature",
       "properties": {
         "description": "<strong>Antikmarkt am Rudolfplatz</strong> <br>Art: Antikmarkt<br>Ort: Rudolfplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Rudolfplatz: 1, 7, 12, 15, 16, 136, 146 <br>Eintritt: 0 Euro <br><a href='https://www.coelln-konzept.de/markt/markt.php?mid=p6' target='_blank'>https://www.coelln-konzept.de/markt/markt.php?mid=p6</a>",
-        "Name": "Antikmarkt am Rudolfplatz"
+        "Name": "Antikmarkt am Rudolfplatz",
         "Ort": "Rudolfplatz",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
@@ -72,7 +72,7 @@
       "type": "Feature",
       "properties": {
         "description": "<strong>Antikmarkt Kölner Altstadt</strong> <br>Art: Antikmarkt<br>Ort: Rheinpromenade <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Heumarkt: 1, 5, 7, 9, 132, 133, Dom/Hbf: 5, 16, 18, 132, 133, S6, S11, S12, S19 <br>Eintritt: 0 Euro <br><a href='https://www.coelln-konzept.de/markt/markt.php?mid=altstadt' target='_blank'>https://www.coelln-konzept.de/markt/markt.php?mid=altstadt</a>",
-        "Name": "Antikmarkt Kölner Altstadt"
+        "Name": "Antikmarkt Kölner Altstadt",
         "Ort": "Rheinpromenade",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
@@ -94,7 +94,7 @@
       "type": "Feature",
       "properties": {
         "description": "<strong>Markt der schönen Dinge</strong> <br>Art: Antikmarkt<br>Ort: Rheinpromenade <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Heumarkt: 1, 5, 7, 9, 132, 133, Dom/Hbf: 5, 16, 18, 132, 133, S6, S11, S12, S19 <br>Eintritt: 0 Euro <br><a href='https://www.coelln-konzept.de/markt/markt.php?mid=altstadt' target='_blank'>https://www.coelln-konzept.de/markt/markt.php?mid=altstadt</a>",
-        "Name": "Markt der schönen Dinge"
+        "Name": "Markt der schönen Dinge",
         "Ort": "Rheinpromenade",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
@@ -111,12 +111,12 @@
           50.94520634493921
         ]
       }
-      },
+     },
           {
       "type": "Feature",
       "properties": {
         "description": "<strong>Antikmarkt auf dem Neumarkt</strong> <br>Art: Antikmarkt<br>Ort: Neumarkt <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Neumarkt: 1, 3, 4, 7, 9, 16, 18, 136, 146 <br>Eintritt: 0 Euro <br><a href='https://coelln-antik-design.de/?page_id=353' target='_blank'>https://coelln-antik-design.de/?page_id=353</a>",
-        "Name": "Antikmarkt auf dem Neumarkt"
+        "Name": "Antikmarkt auf dem Neumarkt",
         "Ort": "Neumarkt",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
@@ -138,7 +138,7 @@
       "type": "Feature",
       "properties": {
         "description": "<strong>Antikmarkt auf Kölner Gürzenich</strong> <br>Art: Antikmarkt<br>Ort: Gürzenich <br>Barrierefrei: Keine Informationen <br>Outdoor/Indoor: Indoor <br>Haltestelle Heumarkt: 1, 5, 7, 9, 106, 132, 133, 250, 260, 978 <br>Eintritt: 0 Euro <br><a href='https://coelln-antik-design.de/?page_id=13' target='_blank'>https://coelln-antik-design.de/?page_id=13</a>",
-        "Name": "Antikmarkt am Kölner Gürzenich"
+        "Name": "Antikmarkt am Kölner Gürzenich",
         "Ort": "Gürzenich",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
