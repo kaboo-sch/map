@@ -44,6 +44,28 @@
           50.952075
         ]
       }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Lifestyle! Rodenkirchen</strong> <br>Art: Lifestylemarkt <br>Ort: Maternusplatz<br>Barrierefrei: ja<br>Outdoor/Indoor: Outdoor <br>Haltestelle: Maternusplatz: 131, 134, 135<br>Eintritt: <br><a href='https://coelln-antik-design.de/?page_id=13' target='_blank'https://coelln-antik-design.de/?page_id=13</a>",
+        "Name": "Lifestyle! Rodenkirchen",
+        "Ort": "Maternusplatz",
+        "Barrierefrei": "ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Maternusplatz: 131, 134, 135",
+        "Wann": "21.05., 22.05., 11 - 18 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://coelln-antik-design.de/?page_id=13",
+        "Art": "Lifestylemarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.993775,
+          50.892643
+        ]
+      }
     }
     
    ]
