@@ -66,6 +66,28 @@
           50.892643
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Lifestyle! Rudolfplatz</strong> <br>Art: Lifestylemarkt <br>Ort: Rudolfplatz<br>Barrierefrei: ja<br>Outdoor/Indoor: Outdoor <br>Haltestelle Rudolfplatz: 1, 7, 12, 15, 16, 136, 146 <br>Eintritt: <br><a href='https://coelln-antik-design.de/?page_id=1193' target='_blank'https://coelln-antik-design.de/?page_id=1193</a>",
+        "Name": "Lifestyle! Rudolfplatz",
+        "Ort": "Rudolfplatz",
+        "Barrierefrei": "ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Rudolfplatz: 1, 7, 12, 15, 16, 136, 146",
+        "Wann": "02.-05.05.04., 15.-18.10., 11 bis 18 Uhr",
+        "Eintritt": "0 Euro",
+        "Link": "https://coelln-antik-design.de/?page_id=1193",
+        "Art": "Lifestylemarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.939784,
+          50.936548
+        ]
+      }
     }
     
    ]
