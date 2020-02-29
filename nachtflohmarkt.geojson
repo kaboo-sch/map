@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bazar de Nuit",
+        "description": "<strong>Bazar de Nuit</strong> <br>Art: Nachtflohmarkt  <br> Ort: Odonien <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Liebigstraße: 5, Lohsestraße: 17, 15, Hansaring: 12, 15, 18 <br>Eintritt: 3 Euro <br><a href='https://www.bazardenuit.de/' target='_blank'>https://www.bazardenuit.de/e</a>",
+        "Ort": "Odonien",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Liebigstraße: 5, Lohsestraße: 17, 15, Hansaring: 12, 15, 18",
+        "Wann": "19.04.2020, 16 bis 23 Uhr",
+        "Eintritt": "3 Euro",
+        "Link": "https://www.bazardenuit.de/",
+        "Art": "Fahrradmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.939545,
+          50.955674
+        ]
+      }    
+    }
+  ]
+}
