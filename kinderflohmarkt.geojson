@@ -21,33 +21,7 @@
           6.980029,
           50.953921
         ]
-      }    
-    },
-    {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Kinderflohmarkt bei Tante Astrid",
-        "description": "<strong>Kinderflohmarkt bei Tante Astrid</strong> <br>Art: Kinderflohmarkt <br> Ort: Kirche St. Michael, Brüsseler Platz <br>Barrierefrei: Keine Informationen <br>Outdoor/Indoor: Indoor <br>Haltestelle: Rudolfplatz: 1, 7, 9, 12, 15, 16, Friesenplatz: 3, 4, 5, 12, 15, 16, 18, 172, 173 <br>Eintritt: 0 Euro <br><a href='http://www.tante-astrid.de/familien-kinder-flohmarktneu.html' target='_blank'>http://www.tante-astrid.de/familien-kinder-flohmarktneu.html</a>",
-        "Ort": "Kirche St. Michael, Brüsseler Platz",
-        "Barrierefrei": "Keine Informationen",
-        "Outdoor/Indoor": "Indoor",
-        "Wie komme ich hin?": "Rudolfplatz: 1, 7, 9, 12, 15, 16, Friesenplatz: 3, 4, 5, 12, 15, 16, 18, 172, 173",
-        "Wann": "01.03., 29.03., 26.04., 24.05., 21.06., 11 bis 14 Uhr",
-        "Eintritt": "0 Euro",
-        "Link": "http://www.tante-astrid.de/familien-kinder-flohmarktneu.html",
-        "Art": "Kinderflohmarkt"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.933865,
-          50.938519
-        ]
-      }    
+      }      
     }   
   ]
 }
-    }
