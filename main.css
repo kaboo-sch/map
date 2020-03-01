@@ -54,7 +54,7 @@ nav li {
 }
 
 #menutop {
-    font-family:Bahnschrift;
+    font-family: "Bahnschrift";
 }
 
 .link {
@@ -111,7 +111,7 @@ nav li {
     border-radius: 3px;
     width: 150px;
     border: 1px solid rgba(0, 0, 0, 0.4);
-    font-family: "Avenir Next";
+    font-family: "Bahnschrift";
 }
 
 #menu a {
