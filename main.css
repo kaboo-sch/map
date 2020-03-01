@@ -17,12 +17,6 @@ body { margin: 0; padding: 0; background-color: white;}
 }
 
 
-h2 {
-    font-family: "Avenir Next";
-    font-size: 60px;
-    text-align: center;
-}
-
 #pfeil {
     position: absolute;
     width: 5%;
@@ -60,7 +54,7 @@ nav li {
 }
 
 #menutop {
-
+    font-family:Bahnschrift;
 }
 
 .link {
