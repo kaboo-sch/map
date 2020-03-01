@@ -191,115 +191,6 @@ map.on('mouseleave', 'FlohmarktCL', function() {
 
 //Flohmarkt Ende
 
-//Wochenmarkt Beginn
-
-map.on('load', function() {
-    map.addSource('Wochenmarkt', {
-        'type': 'geojson',
-        'data':'https://kaboo-sch.github.io/map/Wochenmarkt.geojson',
-        cluster: true,
-        clusterMaxZoom: 13,
-        clusterRadius: 45
-    });
-    map.loadImage(
-        'Icons\\Wochenmarkt.png',
-        function (error, image) {
-            if (error) throw error;
-            map.addImage('Wochenmarkt', image)
-        });
-
-    map.addLayer({
-        id: 'WochenmarktCL',
-        type: 'circle',
-        source: 'Wochenmarkt',
-        filter: ['has', 'point_count'],
-        paint: {
-            'circle-color': '#cc810e',
-            'circle-radius': 18,
-        }
-    });
-
-    map.addLayer({
-        id: 'cluster-count',
-        type: 'symbol',
-        source: 'Wochenmarkt',
-        filter: ['has', 'point_count'],
-        layout: {
-            'text-field': '{point_count_abbreviated}',
-            'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
-            'text-size': 12
-        }
-    });
-
-    map.addLayer({
-        id: 'Wochenmarkt',
-        type: 'symbol',
-        source: 'Wochenmarkt',
-        filter: ['!', ['has', 'point_count']],
-        layout: {
-        'icon-image': 'Wochenmarkt',
-            'icon-allow-overlap': true,
-            'icon-size': 0.04,
-        }
-    });
-
-    map.on('click', 'Wochenmarkt', function(e) {
-        map.flyTo({ center: e.features[0].geometry.coordinates });
-    });
-    map.on('click', 'Wochenmarkt', function (e) {
-        var coordinates = e.features[0].geometry.coordinates.slice();
-        var description = e.features[0].properties.description;
-
-// Ensure that if the map is zoomed out such that multiple
-// copies of the feature are visible, the popup appears
-// over the copy being pointed to.
-        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        }
-
-        new mapboxgl.Popup()
-            .setLngLat(coordinates)
-            .setHTML(description)
-            .addTo(map);
-    });
-
-// Change the cursor to a pointer when the mouse is over the places layer.
-    map.on('mouseenter', 'Wochenmarkt', function () {
-        map.getCanvas().style.cursor = 'pointer';
-    });
-
-// Change it back to a pointer when it leaves.
-    map.on('mouseleave', 'Wochenmarkt', function () {
-        map.getCanvas().style.cursor = '';
-    });
-
-// inspect a cluster on click
-    map.on('click', 'WochenmarktCL', function(e) {
-        var features = map.queryRenderedFeatures(e.point, {
-            layers: ['WochenmarktCL']
-        });
-        var clusterId = features[0].properties.cluster_id;
-        map.getSource('Wochenmarkt').getClusterExpansionZoom(
-            clusterId,
-            function(err, zoom) {
-                if (err) return;
-
-                map.easeTo({
-                    center: features[0].geometry.coordinates,
-                    zoom: zoom
-                });
-            }
-        );
-    });
-
-    map.on('mouseenter', 'WochenmarktCL', function() {
-        map.getCanvas().style.cursor = 'pointer';
-    });
-    map.on('mouseleave', 'WochenmarktCL', function() {
-        map.getCanvas().style.cursor = '';
-    });
-});
-
 //Antikmarkt Anfang
 map.on('load', function() {
     map.addSource('Antikmarkt', {
@@ -408,6 +299,7 @@ map.on('mouseenter', 'AntikmarktCL', function() {
 map.on('mouseleave', 'AntikmarktCL', function() {
     map.getCanvas().style.cursor = '';
 });
+//Antikmarkt Ende
 
 map.on('load', function() {
     map.addSource('Designmarkt', {
@@ -518,13 +410,341 @@ map.on('mouseenter', 'DesignmarktCL', function() {
 map.on('mouseleave', 'DesignmarktCL', function() {
     map.getCanvas().style.cursor = '';
 });
+});
+
+//Designmarkt Ende
+
+//Beginn Wochenmarkt
+
+map.on('load', function() {
+    map.addSource('Wochenmarkt', {
+        'type': 'geojson',
+        'data':'https://kaboo-sch.github.io/map/Wochenmarkt.geojson',
+        cluster: true,
+        clusterMaxZoom: 13,
+        clusterRadius: 45
+    });
+    map.loadImage(
+        'Icons\\Wochenmarkt.png',
+        function (error, image) {
+            if (error) throw error;
+            map.addImage('Wochenmarkt', image)
+        });
+
+    map.addLayer({
+        id: 'WochenmarktCL',
+        type: 'circle',
+        source: 'Wochenmarkt',
+        filter: ['has', 'point_count'],
+        paint: {
+            'circle-color': '#cc810e',
+            'circle-radius': 18,
+        }
+    });
+
+    map.addLayer({
+        id: 'cluster-count',
+        type: 'symbol',
+        source: 'Wochenmarkt',
+        filter: ['has', 'point_count'],
+        layout: {
+            'text-field': '{point_count_abbreviated}',
+            'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+            'text-size': 12
+        }
+    });
+
+    map.addLayer({
+        id: 'Wochenmarkt',
+        type: 'symbol',
+        source: 'Wochenmarkt',
+        filter: ['!', ['has', 'point_count']],
+        layout: {
+            'icon-image': 'Wochenmarkt',
+            'icon-allow-overlap': true,
+            'icon-size': 0.04,
+        }
+    });
+
+    map.on('click', 'Wochenmarkt', function(e) {
+        map.flyTo({ center: e.features[0].geometry.coordinates });
+    });
+    map.on('click', 'Wochenmarkt', function (e) {
+        var coordinates = e.features[0].geometry.coordinates.slice();
+        var description = e.features[0].properties.description;
+
+// Ensure that if the map is zoomed out such that multiple
+// copies of the feature are visible, the popup appears
+// over the copy being pointed to.
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+
+        new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML(description)
+            .addTo(map);
+    });
+
+// Change the cursor to a pointer when the mouse is over the places layer.
+    map.on('mouseenter', 'Wochenmarkt', function () {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+
+// Change it back to a pointer when it leaves.
+    map.on('mouseleave', 'Wochenmarkt', function () {
+        map.getCanvas().style.cursor = '';
+    });
+
+// inspect a cluster on click
+    map.on('click', 'WochenmarktCL', function(e) {
+        var features = map.queryRenderedFeatures(e.point, {
+            layers: ['WochenmarktCL']
+        });
+        var clusterId = features[0].properties.cluster_id;
+        map.getSource('Wochenmarkt').getClusterExpansionZoom(
+            clusterId,
+            function(err, zoom) {
+                if (err) return;
+
+                map.easeTo({
+                    center: features[0].geometry.coordinates,
+                    zoom: zoom
+                });
+            }
+        );
+    });
+
+    map.on('mouseenter', 'WochenmarktCL', function() {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave', 'WochenmarktCL', function() {
+        map.getCanvas().style.cursor = '';
+    });
+});
+//Wochenmarkt Ende
+
+//Kinderflohmarkt Anfang
+map.on('load', function() {
+    map.addSource('Kinderflohmarkt', {
+        'type': 'geojson',
+        'data':'https://kaboo-sch.github.io/map/kinderflohmarkt.geojson',
+        cluster: true,
+        clusterMaxZoom: 13,
+        clusterRadius: 45
+    });
+    map.loadImage(
+        'Icons\\Kinderflohmarkt.png',
+        function (error, image) {
+            if (error) throw error;
+            map.addImage('Kinderflomarkt', image)
+        });
+
+    map.addLayer({
+        id: 'KinderflohmarktCL',
+        type: 'circle',
+        source: 'Kinderflohmarkt',
+        filter: ['has', 'point_count'],
+        paint: {
+            'circle-color': '#cc810e',
+            'circle-radius': 18,
+        }
+    });
+
+    map.addLayer({
+        id: 'cluster-count',
+        type: 'symbol',
+        source: 'Kinderflohmarkt',
+        filter: ['has', 'point_count'],
+        layout: {
+            'text-field': '{point_count_abbreviated}',
+            'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+            'text-size': 12
+        }
+    });
+
+    map.addLayer({
+        id: 'Kinderflohmarkt',
+        type: 'symbol',
+        source: 'Kinderflohmarkt',
+        filter: ['!', ['has', 'point_count']],
+        layout: {
+            'icon-image': 'Kinderflohmarkt',
+            'icon-allow-overlap': true,
+            'icon-size': 0.04,
+        }
+    });
+
+    map.on('click', 'Kinderflohmarkt', function(e) {
+        map.flyTo({ center: e.features[0].geometry.coordinates });
+    });
+    map.on('click', 'Kinderflohmarkt', function (e) {
+        var coordinates = e.features[0].geometry.coordinates.slice();
+        var description = e.features[0].properties.description;
+
+// Ensure that if the map is zoomed out such that multiple
+// copies of the feature are visible, the popup appears
+// over the copy being pointed to.
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+
+        new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML(description)
+            .addTo(map);
+    });
+
+// Change the cursor to a pointer when the mouse is over the places layer.
+    map.on('mouseenter', 'Kinderflohmarkt', function () {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+
+// Change it back to a pointer when it leaves.
+    map.on('mouseleave', 'Kinderflohmarkt', function () {
+        map.getCanvas().style.cursor = '';
+    });
+
+// inspect a cluster on click
+    map.on('click', 'KinderflohmarktCL', function(e) {
+        var features = map.queryRenderedFeatures(e.point, {
+            layers: ['KinderflohmarktCL']
+        });
+        var clusterId = features[0].properties.cluster_id;
+        map.getSource('Kinderflohmarkt').getClusterExpansionZoom(
+            clusterId,
+            function(err, zoom) {
+                if (err) return;
+
+                map.easeTo({
+                    center: features[0].geometry.coordinates,
+                    zoom: zoom
+                });
+            }
+        );
+    });
+
+    map.on('mouseenter', 'KinderflohmarktCL', function() {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave', 'KinderflohmarktCL', function() {
+        map.getCanvas().style.cursor = '';
+    });
+});
+//Kinderflohmarkt Ende
+
+// Nachtflohmarkt Anfang
+
+map.on('load', function() {
+    map.addSource('Nachtflohmarkt', {
+        'type': 'geojson',
+        'data':'https://kaboo-sch.github.io/map/nachtflohmarkt.geojson',
+        cluster: true,
+        clusterMaxZoom: 13,
+        clusterRadius: 45
+    });
+    map.loadImage(
+        'Icons\\Nachtflohmarkt.png',
+        function (error, image) {
+            if (error) throw error;
+            map.addImage('Nachtflohmarkt', image)
+        });
+
+    map.addLayer({
+        id: 'NachtflohmarktCL',
+        type: 'circle',
+        source: 'Nachtflohmarkt',
+        filter: ['has', 'point_count'],
+        paint: {
+            'circle-color': '#cc810e',
+            'circle-radius': 18,
+        }
+    });
+
+    map.addLayer({
+        id: 'cluster-count',
+        type: 'symbol',
+        source: 'Nachtflohmarkt',
+        filter: ['has', 'point_count'],
+        layout: {
+            'text-field': '{point_count_abbreviated}',
+            'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+            'text-size': 12
+        }
+    });
+
+    map.addLayer({
+        id: 'Nachtflohmarkt',
+        type: 'symbol',
+        source: 'Nachtflohmarkt',
+        filter: ['!', ['has', 'point_count']],
+        layout: {
+            'icon-image': 'Nachtflohmarkt',
+            'icon-allow-overlap': true,
+            'icon-size': 0.04,
+        }
+    });
+
+    map.on('click', 'Nachtflohmarkt', function(e) {
+        map.flyTo({ center: e.features[0].geometry.coordinates });
+    });
+    map.on('click', 'Nachtflohmarkt', function (e) {
+        var coordinates = e.features[0].geometry.coordinates.slice();
+        var description = e.features[0].properties.description;
+
+// Ensure that if the map is zoomed out such that multiple
+// copies of the feature are visible, the popup appears
+// over the copy being pointed to.
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+
+        new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML(description)
+            .addTo(map);
+    });
+
+// Change the cursor to a pointer when the mouse is over the places layer.
+    map.on('mouseenter', 'Nachtflohmarkt', function () {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+
+// Change it back to a pointer when it leaves.
+    map.on('mouseleave', 'Nachtflohmarkt', function () {
+        map.getCanvas().style.cursor = '';
+    });
+
+// inspect a cluster on click
+    map.on('click', 'NachtflohmarktCL', function(e) {
+        var features = map.queryRenderedFeatures(e.point, {
+            layers: ['NachtflohmarktCL']
+        });
+        var clusterId = features[0].properties.cluster_id;
+        map.getSource('Nachtflohmarkt').getClusterExpansionZoom(
+            clusterId,
+            function(err, zoom) {
+                if (err) return;
+
+                map.easeTo({
+                    center: features[0].geometry.coordinates,
+                    zoom: zoom
+                });
+            }
+        );
+    });
+
+    map.on('mouseenter', 'NachtflohmarktCL', function() {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave', 'NachtflohmarktCL', function() {
+        map.getCanvas().style.cursor = '';
+    });
+});
 
 
-//Antikmarkt Ende
 
-
-
-var toggleableLayerIds = ['Flohmarkt', 'Fahrradmarkt', 'Wochenmarkt', 'Antikmarkt', 'Designmarkt'];
+var toggleableLayerIds = ['Flohmarkt', 'Fahrradmarkt', 'Wochenmarkt', 'Antikmarkt', 'Designmarkt', 'Kinderflohmarkt', 'Nachtflohmarkt'];
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
 
