@@ -537,7 +537,7 @@ map.on('load', function() {
         'Icons\\Kinderflohmarkt.png',
         function (error, image) {
             if (error) throw error;
-            map.addImage('Kinderflomarkt', image)
+            map.addImage('Kinderflohmarkt', image)
         });
 
     map.addLayer({
