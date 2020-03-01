@@ -17,10 +17,10 @@ body { margin: 0; padding: 0; background-color: white;}
 }
 
 
-h2 { 
-    font-family: "Avenir Next"; 
-    font-size: 60px; 
-    text-align: center; 
+h2 {
+    font-family: "Avenir Next";
+    font-size: 60px;
+    text-align: center;
 }
 
 #pfeil {
@@ -67,7 +67,7 @@ nav li {
     text-decoration: none;
     color: black;
     font-family: "Avenir Next";
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
     font-weight: medium;
     font-size: 15px;
     padding: 20px;
@@ -88,7 +88,7 @@ nav li {
     background-color: white;
     padding: 20px;
     padding-left: 50px;
-    padding-right: 50px; 
+    padding-right: 50px;
     position: absolute;
     margin-top: 1%;
     margin-left: 21%;
