@@ -33,7 +33,7 @@ body { margin: 0; padding: 0; background-color: white;}
 
 .navbar {
     width: 60%;
-    left: 10%;
+    /*left: 10%;*/
     position: absolute;
     bottom: 0px;
     list-style-type: none;
