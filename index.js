@@ -3,9 +3,9 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
     center: [6.95, 50.93333],
-    zoom: 10.5,
+    zoom: 9.5,
     maxZoom: 16,
-    minZoom: 9,
+    minZoom: 8,
 });
 
 map.addControl(new mapboxgl.NavigationControl());
