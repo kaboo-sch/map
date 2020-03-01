@@ -410,7 +410,7 @@ map.on('mouseenter', 'DesignmarktCL', function() {
 map.on('mouseleave', 'DesignmarktCL', function() {
     map.getCanvas().style.cursor = '';
 });
-});
+
 
 //Designmarkt Ende
 
