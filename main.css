@@ -54,7 +54,7 @@ nav li {
 }
 
 #menutop {
-    font-family: "Bahnschrift";
+
 }
 
 .link {
@@ -148,7 +148,7 @@ nav li {
     position: absolute;
     z-index: 1;
     width: 10%;
-    right: 10%;
+    right: 25%;
     top: 10px;
 
 }
