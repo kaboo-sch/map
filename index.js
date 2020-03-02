@@ -5,7 +5,7 @@ var map = new mapboxgl.Map({
     center: [6.95, 50.93333],
     zoom: 10,
     maxZoom: 18,
-    minZoom: 9,
+    minZoom: 8,
 });
 
 map.addControl(new mapboxgl.NavigationControl());
@@ -546,7 +546,7 @@ map.on('load', function() {
         source: 'Kinderflohmarkt',
         filter: ['has', 'point_count'],
         paint: {
-            'circle-color': '#cc810e',
+            'circle-color': '#ffff7b',
             'circle-radius': 18,
         }
     });
@@ -656,7 +656,7 @@ map.on('load', function() {
         source: 'Lifestylemarkt',
         filter: ['has', 'point_count'],
         paint: {
-            'circle-color': '#cc810e',
+            'circle-color': '#4b2767',
             'circle-radius': 18,
         }
     });
@@ -764,7 +764,7 @@ map.on('load', function() {
         source: 'Nachtflohmarkt',
         filter: ['has', 'point_count'],
         paint: {
-            'circle-color': '#cc810e',
+            'circle-color': '#274166',
             'circle-radius': 18,
         }
     });
