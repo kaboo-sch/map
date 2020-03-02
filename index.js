@@ -636,6 +636,114 @@ map.on('load', function() {
 // Nachtflohmarkt Anfang
 
 map.on('load', function() {
+    map.addSource('Lifestylemarkt', {
+        'type': 'geojson',
+        'data':'https://kaboo-sch.github.io/map/lifestylemarkt.geojson',
+        cluster: true,
+        clusterMaxZoom: 13,
+        clusterRadius: 45
+    });
+    map.loadImage(
+        'Icons\\Lifestyle.png',
+        function (error, image) {
+            if (error) throw error;
+            map.addImage('Lifestylemarkt', image)
+        });
+
+    map.addLayer({
+        id: 'LifestylemarktCL',
+        type: 'circle',
+        source: 'Lifestylemarkt',
+        filter: ['has', 'point_count'],
+        paint: {
+            'circle-color': '#cc810e',
+            'circle-radius': 18,
+        }
+    });
+
+    map.addLayer({
+        id: 'cluster-count',
+        type: 'symbol',
+        source: 'Lifestylemarkt',
+        filter: ['has', 'point_count'],
+        layout: {
+            'text-field': '{point_count_abbreviated}',
+            'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+            'text-size': 12
+        }
+    });
+
+    map.addLayer({
+        id: 'Lifestylemarkt',
+        type: 'symbol',
+        source: 'Lifestylemarkt',
+        filter: ['!', ['has', 'point_count']],
+        layout: {
+            'icon-image': 'Lifestylemarkt',
+            'icon-allow-overlap': true,
+            'icon-size': 0.04,
+        }
+    });
+
+    map.on('click', 'Lifestylemarkt', function(e) {
+        map.flyTo({ center: e.features[0].geometry.coordinates });
+    });
+    map.on('click', 'Lifestylemarkt', function (e) {
+        var coordinates = e.features[0].geometry.coordinates.slice();
+        var description = e.features[0].properties.description;
+
+// Ensure that if the map is zoomed out such that multiple
+// copies of the feature are visible, the popup appears
+// over the copy being pointed to.
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+
+        new mapboxgl.Popup()
+            .setLngLat(coordinates)
+            .setHTML(description)
+            .addTo(map);
+    });
+
+// Change the cursor to a pointer when the mouse is over the places layer.
+    map.on('mouseenter', 'Lifestylemarkt', function () {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+
+// Change it back to a pointer when it leaves.
+    map.on('mouseleave', 'Lifestylemarkt', function () {
+        map.getCanvas().style.cursor = '';
+    });
+
+// inspect a cluster on click
+    map.on('click', 'LiefstylemarktCL', function(e) {
+        var features = map.queryRenderedFeatures(e.point, {
+            layers: ['LifestylemarktCL']
+        });
+        var clusterId = features[0].properties.cluster_id;
+        map.getSource('Lifestylemarkt').getClusterExpansionZoom(
+            clusterId,
+            function(err, zoom) {
+                if (err) return;
+
+                map.easeTo({
+                    center: features[0].geometry.coordinates,
+                    zoom: zoom
+                });
+            }
+        );
+    });
+
+    map.on('mouseenter', 'LifestylemarktCL', function() {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+    map.on('mouseleave', 'LifestylemarktCL', function() {
+        map.getCanvas().style.cursor = '';
+    });
+});
+
+
+map.on('load', function() {
     map.addSource('Nachtflohmarkt', {
         'type': 'geojson',
         'data':'https://kaboo-sch.github.io/map/nachtflohmarkt.geojson',
@@ -742,9 +850,7 @@ map.on('load', function() {
     });
 });
 
-
-
-var toggleableLayerIds = ['Flohmarkt', 'Fahrradmarkt', 'Wochenmarkt', 'Antikmarkt', 'Designmarkt', 'Kinderflohmarkt', 'Nachtflohmarkt'];
+var toggleableLayerIds = ['Flohmarkt', 'Fahrradmarkt', 'Wochenmarkt', 'Antikmarkt', 'Designmarkt', 'Kinderflohmarkt', 'Nachtflohmarkt', 'Lifestylemarkt'];
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
 
