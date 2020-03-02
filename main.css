@@ -4,7 +4,7 @@ body { margin: 0; padding: 0; background-color: white;}
 
 
 #headline {
-    /*float: left;*/
+    float: left;
     clear: both;
     margin-left: 30%;
     position: relative;
