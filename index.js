@@ -638,7 +638,7 @@ map.on('load', function() {
 map.on('load', function() {
     map.addSource('Lifestylemarkt', {
         'type': 'geojson',
-        'data':'https://kaboo-sch.github.io/map/lifestylemarkt.geojson',
+        'data':'https://kaboo-sch.github.io/map/lifestylemaerkte.geojson',
         cluster: true,
         clusterMaxZoom: 13,
         clusterRadius: 45
