@@ -40,7 +40,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-           7.012549638748169,
+          7.012549638748169,
           50.964893605993645
         ]
       }
@@ -62,7 +62,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-           6.911139,
+          6.911139,
           50.956284
         ]
       }
@@ -70,6 +70,9 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
         "description": "<strong>50er-70er Jahre Festival</strong> <br>Art: Designmarkt <br>Ort: Rheinuferpromenade<br>Barrierefrei: ja<br>Outdoor/Indoor: Outdoor<br>Halstestelle Dom/Hbf: 5, 16, 18, 132, 133, S6, S11, S12, S13, S19<br>Eintritt: 3 Euro<br><a href='https://coelln-antik-design.de/?page_id=32' target='_blank'https://coelln-antik-design.de/?page_id=32</a>",
         "Name": "50er-70er",
         "Ort": "Rheinuferpromenade am Konrad-Adenauer-Ufer zwischen Hohenzollernbrücke und Zoobrücke",
@@ -84,11 +87,10 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-           6.963146,
-          50.943265
+          6.96481704711914,
+          50.947126101554346
         ]
       }
     }
-    
-   ]
- }
+  ]
+}
