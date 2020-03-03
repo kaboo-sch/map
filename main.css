@@ -40,7 +40,7 @@ body { margin: 0; padding: 0; background-color: white;}
     text-align: center;
     z-index: 2;
     background-color: white;
-   /*float: left;*/
+    float: left;
     border-top: solid black 2px;
     border-bottom: solid black 2px;
     border-left: solid black 2px;
@@ -111,7 +111,7 @@ nav li {
     border-radius: 3px;
     width: 150px;
     border: 1px solid rgba(0, 0, 0, 0.4);
-    font-family: "Calibri";
+    font-family: "Avenir Next";
 }
 
 #menu a {
