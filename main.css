@@ -10,6 +10,13 @@ body { margin: 0; padding: 0; background-color: white;}
     position: relative;
 }
 
+h1 {
+    font-size: 30px;
+    font-family: "Avenir Next";
+    letter-spacing: 4px;
+    font-weigt: bold;
+}
+
 #logo {
     width: 60%;
     text-align: center;
