@@ -876,10 +876,10 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
     };
 
     var layers = document.getElementById('menu');
-    layers.appendChild(link);
-    
-    function senden(){
-	alert("Cool von Dir!");
+    layers.appendChild(link);   
 }
+
+function senden(){
+	alert("Danke für deine Nachricht!");
 }
 
