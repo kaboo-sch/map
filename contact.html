@@ -26,7 +26,64 @@
 	<section id="content">
 		<article class="text">
 		<p>
-			Hier kann man Kontakt mit uns aufnehmen.
+			<h1> Hier kann man Kontakt mit uns aufnehmen. <h1>
+		
+		<form
+			action="#"
+			method="get"
+			accept-charset="UTF-8">
+
+				<input
+				type="radio"
+				id="anredeFrau"
+				name="anrede"
+				value="F">
+				<label for="anredeFrau">Frau</label>
+
+				<input
+				type="radio"
+				id="anredeHerr"
+				name="anrede"
+				value="M">
+				<label for="anredeHerr">Herr</label>
+
+				<input
+				type="radio"
+				id="anredeDivers"
+				name="anrede"
+				value="D">
+				<label for="anredeDivers">Divers</label>
+			
+				<br><br>
+			
+				<label for="vorname"> Dein Vorname: </label>
+				<input 
+				name="vorname"
+				id="vorname"
+				type="text">
+				<br>
+				<label for="nachname"> Dein Nachname: </label>
+				<input
+				name="nachname"
+				id="nachname"
+				type="text">
+				<br>
+				<label for="email"> Und deine E-Mail-Adresse, bitte: </label>
+				<input
+				name="email"
+				id="email"
+				type="text">
+				<br><br>
+				<textarea
+				name="nachricht"
+				id="nachricht"
+				rows="10"
+				cols="50"
+				required>Falls Fragen oder Anmerkungen hast oder deine Oma grüßen willst, hier kannst du dich austoben!
+				</textarea>
+				<br>
+				<input type="submit" onclick="senden()" value="absenden"/>
+		</form>
 		</p>
 		</article>
 	</section>	
