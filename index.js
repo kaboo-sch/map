@@ -879,7 +879,3 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
     layers.appendChild(link);   
 }
 
-function senden(){
-	alert("Danke für deine Nachricht!");
-}
-
