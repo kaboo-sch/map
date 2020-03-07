@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mädchenflohmarkt",
+        "description": "<strong>Mädchenflohmarkt</strong> <br>Art: Mädchenflohmarkt<br> Ort: AbenteuerHallenKalk <br>Barrierefrei: Keine Information <br>Outdoor/Indoor: Indoor <br>Haltestelle: Kalk-Kapelle: 1, 9, 159, 171, 179, 193 <br>Eintritt: 3 Euro <br><a href='http://www.nachtkonsum.com/maedelsflohmarkt-koeln' target='_blank'>http://www.nachtkonsum.com/maedelsflohmarkt-koeln</a>",
+        "Ort": "AbenteuerHallenKalk",
+        "Barrierefrei": "Keine Information",
+        "Outdoor/Indoor": "Indoor",
+        "Wie komme ich hin?": "Kalk-Kapelle: 1, 9, 159, 171, 179, 193",
+        "Wann": "22.03.20, 19.04.20, 11 bis 16 Uhr",
+        "Eintritt": "3 Euro",
+        "Link": "http://www.nachtkonsum.com/maedelsflohmarkt-koeln",
+        "Art": "Mädchenflohmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.008888,
+          50.935976
+        ]
+      }
+    }
+  ]
+}
