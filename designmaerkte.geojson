@@ -91,6 +91,29 @@
           50.94424643690133
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>KunstHandwerkerMarkt Engelshof</strong> <br>Art: Designmarkt <br>Ort: Bürgerzentrum Engelshof e.V.<br>Barrierefrei: Ja<br>Outdoor/Indoor: Outdoor<br>Haltestelle: Westhoven Berliner Str.: 7<br>Eintritt: 5 Euro<br><a href='https://engelshof.net/2018/10/18/01-02-04-kunsthandwerkermarkt-2/' target='_blank'https://engelshof.net/2018/10/18/01-02-04-kunsthandwerkermarkt-2/</a>",
+        "Name": "KunstHandwerkerMarkt Engelshof",
+        "Ort": "Bürgerzentrum Engelshof e.V.",
+        "Barrierefrei": "Ja",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Haltestelle: Westhoven Berliner Str.: 7",
+        "Wann": "28./29.3., 07./08.11.20, 11 bis 18 Uhr",
+        "Eintritt": "5 Euro",
+        "Link": "https://engelshof.net/2018/10/18/01-02-04-kunsthandwerkermarkt-2/",
+        "Art": "Designmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.020934,
+          50.900520
+        ]
+      }
     }
+    
   ]
 }
