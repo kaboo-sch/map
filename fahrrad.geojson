@@ -49,7 +49,7 @@
       "type": "Feature",
       "properties": {
         "name": "Fahrradmarkt Nippes",
-        "description": "<strong>Fahrradmarkt Nippes</strong> <br>Art: Fahrradmarkt  <br> Ort: Vorplatz Agneskirche/Neusser Platz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Ebertplatz: 12, 15, 16, 18, 127, 140<br>Eintritt: 0 Euro <br><a href='https://www.fahrradmarkt-koeln.de/termine/' target='_blank'>https://www.fahrradmarkt-koeln.de/termine/</a>",
+        "description": "<strong>Fahrradmarkt Nippes</strong> <br>Art: Fahrradmarkt  <br> Ort: Vorplatz Agneskirche/Neusser Platz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Ebertplatz: 12, 15, 16, 18, 127, 140<br>Eintritt: 0 Euro <br><a href='https://www.fahrradmarkt-koeln.de/termine/' target='_blank'>www.fahrradmarkt-koeln.de/termine/</a>",
         "Ort": "Vorplatz Agneskirche/Neusser Platz",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
@@ -71,7 +71,7 @@
       "type": "Feature",
       "properties": {
         "name": "Fahrradmarkt Innenstadt",
-        "description": "<strong>Fahrradmarkt Innenstadt</strong> <br>Art: Fahrradmarkt  <br> Ort: Friesenplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Friesenplatz: 3, 4, 5, 12, 15, 172, 173<br>Eintritt: 0 Euro <br><a href='https://www.fahrradmarkt-koeln.de/termine/' target='_blank'>https://www.fahrradmarkt-koeln.de/termine/</a>",
+        "description": "<strong>Fahrradmarkt Innenstadt</strong> <br>Art: Fahrradmarkt  <br> Ort: Friesenplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Friesenplatz: 3, 4, 5, 12, 15, 172, 173<br>Eintritt: 0 Euro <br><a href='https://www.fahrradmarkt-koeln.de/termine/' target='_blank'>www.fahrradmarkt-koeln.de/termine/</a>",
         "Ort": "Friesenplatz",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "name": "Fahrradmarkt Südstadt",
-        "description": "<strong>Fahrradmarkt Südstadt</strong> <br>Art: Fahrradmarkt  <br> Ort: Severinsvorplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Kartäuserhof: 16, 17<br>Eintritt: 0 Euro <br><a href='https://www.fahrradmarkt-koeln.de/termine/' target='_blank'>https://www.fahrradmarkt-koeln.de/termine/</a>",
+        "description": "<strong>Fahrradmarkt Südstadt</strong> <br>Art: Fahrradmarkt  <br> Ort: Severinsvorplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Kartäuserhof: 16, 17<br>Eintritt: 0 Euro <br><a href='https://www.fahrradmarkt-koeln.de/termine/' target='_blank'>www.fahrradmarkt-koeln.de/termine/</a>",
         "Ort": "Severinsvorplatz",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
