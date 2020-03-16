@@ -26,7 +26,7 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "<strong>Klettenberggürtel Flohmarkt</strong> <br>Art: Flohmarkt <br>Ort: Klettenberggrütel <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Klettenberggürtel mit der Linie 13, 18, 130 und 134 <br>Eintritt: 0 Euro <br><a href='http://troedeltipp.de/' target='_blank'></a>",
+        "description": "<strong>Klettenberggürtel Flohmarkt</strong> <br>Art: Flohmarkt <br>Ort: Klettenberggrütel <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Klettenberggürtel mit der Linie 13, 18, 130 und 134 <br>Eintritt: 0 Euro <br><a href='http://troedeltipp.de/' target='_blank'>troedeltipp.de</a>",
         "Ort": "Klettenberggürtel",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
@@ -48,7 +48,7 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "<strong>Flohmarkt Kölner Südstadt</strong> <br>Art: Flohmarkt <br>Ort: Vorgebirgstraße zwischen Fortuna Stadion und Volksgarten <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Ulrepforte 15, 16, Pohligstraße 12, 142 <br>Eintritt: 0 Euro <br><a href='https://www.coelln-konzept.de/markt/suedstadt.html' target='_blank'>https://www.coelln-konzept.de/markt/suedstadt.html</a>",
+        "description": "<strong>Flohmarkt Kölner Südstadt</strong> <br>Art: Flohmarkt <br>Ort: Vorgebirgstraße zwischen Fortuna Stadion und Volksgarten <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Ulrepforte 15, 16, Pohligstraße 12, 142 <br>Eintritt: 0 Euro <br><a href='https://www.coelln-konzept.de/markt/suedstadt.html' target='_blank'>www.coelln-konzept.de/markt/suedstadt.html</a>",
         "Ort": "Vorgebirgstraße zwischen Fortuna Stadion und Volksgarten",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
@@ -70,7 +70,7 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "<strong>Ehrenfelder Flohmarkt</strong> <br>Art: Flohmarkt <br>Ort: Bürgerzentrum Ehrenfeld, Venloer Str. 429 <br>Barrierefrei: Keine Information <br>Outdoor/Indoor: Indoor <br>Haltestelle: Venloer Str./Gürtel 3, 4, 13, Bahnhof Ehrenfeld S12, S13, S19 <br>Eintritt: 0 Euro <br><a href='http://www.buergerzentrum.info/veranstaltungen-und-kultur/flohmarkt/' target='_blank'>http://www.buergerzentrum.info/veranstaltungen-und-kultur/flohmarkt/</a>",
+        "description": "<strong>Ehrenfelder Flohmarkt</strong> <br>Art: Flohmarkt <br>Ort: Bürgerzentrum Ehrenfeld, Venloer Str. 429 <br>Barrierefrei: Keine Information <br>Outdoor/Indoor: Indoor <br>Haltestelle: Venloer Str./Gürtel 3, 4, 13, Bahnhof Ehrenfeld S12, S13, S19 <br>Eintritt: 0 Euro <br><a href='http://www.buergerzentrum.info/veranstaltungen-und-kultur/flohmarkt/' target='_blank'>www.buergerzentrum.info</a>",
         "Ort": "Bürgerzentrum Ehrenfeld, Venloer Str. 429",
         "Barrierefrei": "Keine Information",
         "Outdoor/Indoor": "Indoor",
