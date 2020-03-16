@@ -247,7 +247,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Kindertrödelmarkt Fühlingen",
-        "description": "<strong>Kindertrödelmarkt Fühlingen</strong> <br>Art: Kinderflohmarkt <br> Ort: Schützenheim an der Kirche, Neusser Landstr. 80 <br>Barrierefrei: Keine Informationen <br>Outdoor/Indoor: Indoor <br>Haltestelle: Fühlingen: 120, 123 <br>Eintritt: 0 Euro <br><a href='https://www.kidsgo.de/kurse/flohmaerkte/koeln/'>www.kidsgo.de/kurse/flohmaerkte/koeln/</a>",
+        "description": "<strong>Kindertrödelmarkt Fühlingen</strong> <br>Art: Kinderflohmarkt <br> Ort: Schützenheim an der Kirche, Neusser Landstr. 80 <br>Barrierefrei: Keine Informationen <br>Outdoor/Indoor: Indoor <br>Haltestelle: Fühlingen: 120, 123 <br>Eintritt: 0 Euro <br><a href='https://www.kidsgo.de/kurse/flohmaerkte/koeln/' target='_blank'>www.kidsgo.de/kurse/flohmaerkte/koeln/</a>",
         "Ort": "Schützenheim an der Kirche, Neusser Landstr. 80",
         "Barrierefrei": "Keine Informationen",
         "Outdoor/Indoor": "Indoor",
@@ -269,7 +269,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Kinderflohmarkt Förderverein Kita Kinderarche",
-        "description": "<strong>Kinderflohmarkt Förderverein Kita Kinderarche</strong> <br>Art: Kinderflohmarkt <br> Ort: Förderverein Kita Kinderarche, Subbelrather Str. 210 <br>Barrierefrei: Keine Informationen <br>Outdoor/Indoor: Indoor <br>Haltestelle: Liebigstraße: 5, 142 <br>Eintritt: 0 Euro <br><a href='https://www.kidsgo.de/kurse/flohmaerkte/koeln/'>https://www.kidsgo.de/kurse/flohmaerkte/koeln/</a>",
+        "description": "<strong>Kinderflohmarkt Förderverein Kita Kinderarche</strong> <br>Art: Kinderflohmarkt <br> Ort: Förderverein Kita Kinderarche, Subbelrather Str. 210 <br>Barrierefrei: Keine Informationen <br>Outdoor/Indoor: Indoor <br>Haltestelle: Liebigstraße: 5, 142 <br>Eintritt: 0 Euro <br><a href='https://www.kidsgo.de/kurse/flohmaerkte/koeln/'target='_blank'>www.kidsgo.de/kurse/flohmaerkte/koeln/</a>",
         "Ort": "Förderverein Kita Kinderarche, Subbelrather Str. 210",
         "Barrierefrei": "Keine Informationen",
         "Outdoor/Indoor": "Indoor",
@@ -291,7 +291,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Kindertrödelmarkt Vogelsang",
-        "description": "<strong>Kindertrödelmarkt Vogelsang</strong> <br>Art: Kinderflohmarkt <br> Ort: Gemeindehaus Emmauskirche, Birkhuhnweg 2b <br>Barrierefrei: Keine Informationen <br>Outdoor/Indoor: Indoor <br>Haltestelle: Goldammerweg: 141, 143 <br>Eintritt: 0 Euro <br><a href='https://www.kidsgo.de/kurse/flohmaerkte/koeln/'>https://www.kidsgo.de/kurse/flohmaerkte/koeln/</a>",
+        "description": "<strong>Kindertrödelmarkt Vogelsang</strong> <br>Art: Kinderflohmarkt <br> Ort: Gemeindehaus Emmauskirche, Birkhuhnweg 2b <br>Barrierefrei: Keine Informationen <br>Outdoor/Indoor: Indoor <br>Haltestelle: Goldammerweg: 141, 143 <br>Eintritt: 0 Euro <br><a href='https://www.kidsgo.de/kurse/flohmaerkte/koeln/'target='_blank'>www.kidsgo.de/kurse/flohmaerkte/koeln/</a>",
         "Ort": "Gemeindehaus Emmauskirche, Birkhuhnweg 2b",
         "Barrierefrei": "Keine Informationen",
         "Outdoor/Indoor": "Indoor",
@@ -313,7 +313,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Kindertrödelmarkt Ehrenfeld",
-        "description": "<strong>Kindertrödelmarkt Ehrenfeld</strong> <br>Art: Kinderflohmarkt <br> Ort: FAMZ Brunnenkinder, Venloer Str. 725a<br>Barrierefrei: Keine Informationen <br>Outdoor/Indoor: Indoor <br>Haltestelle: Akazienweg: 3, 4 <br>Eintritt: 0 Euro <br><a href='https://www.kidsgo.de/kurse/flohmaerkte/koeln/'>https://www.kidsgo.de/kurse/flohmaerkte/koeln/</a>",
+        "description": "<strong>Kindertrödelmarkt Ehrenfeld</strong> <br>Art: Kinderflohmarkt <br> Ort: FAMZ Brunnenkinder, Venloer Str. 725a<br>Barrierefrei: Keine Informationen <br>Outdoor/Indoor: Indoor <br>Haltestelle: Akazienweg: 3, 4 <br>Eintritt: 0 Euro <br><a href='https://www.kidsgo.de/kurse/flohmaerkte/koeln/'target='_blank'>www.kidsgo.de/kurse/flohmaerkte/koeln/</a>",
         "Ort": "FAMZ Brunnenkinder, Venloer Str. 725a",
         "Barrierefrei": "Keine Informationen",
         "Outdoor/Indoor": "Indoor",
@@ -335,7 +335,7 @@
       "type": "Feature",
       "properties": {
         "Name": "Kindertrödelmarkt Neu-Ehrenfeld",
-        "description": "<strong>Kindertrödelmarkt Neu-Ehrenfeld</strong> <br>Art: Kinderflohmarkt <br> Ort: Köln Kita GmbH, Takustr. 27<br>Barrierefrei: Keine Informationen <br>Outdoor/Indoor: Indoor <br>Haltestelle: Takusstr.: 141, 143<br>Eintritt: 0 Euro <br><a href='https://www.kidsgo.de/kurse/flohmaerkte/koeln/'>https://www.kidsgo.de/kurse/flohmaerkte/koeln/</a>",
+        "description": "<strong>Kindertrödelmarkt Neu-Ehrenfeld</strong> <br>Art: Kinderflohmarkt <br> Ort: Köln Kita GmbH, Takustr. 27<br>Barrierefrei: Keine Informationen <br>Outdoor/Indoor: Indoor <br>Haltestelle: Takusstr.: 141, 143<br>Eintritt: 0 Euro <br><a href='https://www.kidsgo.de/kurse/flohmaerkte/koeln/' target='_blank'>www.kidsgo.de/kurse/flohmaerkte/koeln/</a>",
         "Ort": "Köln Kita GmbH, Takustr. 27",
         "Barrierefrei": "Keine Informationen",
         "Outdoor/Indoor": "Indoor",
