@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "<strong>DIY Design Markt</strong> <br>Art: Designmarkt <br>Ort: BALLONI <br>Barrierefrei: <br>Outdoor/Indoor: Indoor <br>Haltestelle: Köln-Ehrenfeld: S12, S13, S19, Regionalbahn; Venloer Straße Gürtel: 141, 142, 143, 3, 4, 13<br>Eintritt: 3 Euro <br><a href='DIY MARKT' target='_blank'><u> weitere Infos hier </u></a>",
+        "description": "<strong>DIY Design Markt</strong> <br>Art: Designmarkt <br>Ort: BALLONI <br>Barrierefrei: <br>Outdoor/Indoor: Indoor <br>Haltestelle: Köln-Ehrenfeld: S12, S13, S19, Regionalbahn; Venloer Straße Gürtel: 141, 142, 143, 3, 4, 13<br>Eintritt: 3 Euro <br><a href='DIY MARKT' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Name": "DIY Design Markt",
         "Ort": "BALLONI",
         "Barrierefrei": "",
@@ -26,7 +26,7 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "<strong>Stijlmarkt</strong> <br>Art: Designmarkt <br>Ort: Carkswerk Victoria<br>Barrierefrei: ja<br>Outdoor/Indoor: Indoor<br>Haltestelle: Schanzenstraße/Schauspielhaus: 150, Keupstraße: 4<br>Eintritt: <br><a href='Stijlmarkt' target='_blank'><u> weitere Infos hier </u></a>",
+        "description": "<strong>Stijlmarkt</strong> <br>Art: Designmarkt <br>Ort: Carkswerk Victoria<br>Barrierefrei: ja<br>Outdoor/Indoor: Indoor<br>Haltestelle: Schanzenstraße/Schauspielhaus: 150, Keupstraße: 4<br>Eintritt: <br><a href='Stijlmarkt' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Name": "Stijlmarkt",
         "Ort": "Carlswerk Victoria",
         "Barrierefrei": "ja",
@@ -48,7 +48,7 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "<strong>Kunst.Hand.Werk</strong> <br>Art: Designmarkt <br>Ort: Rufffactory<br>Barrierefrei: Keine Information<br>Outdoor/Indoor: Indoor<br>Haltestelle: Leyendecker Str.: 3, 4<br>Eintritt: 3 Euro<br><a href='Kunst.Hand.Werk' target='_blank'><u> weitere Infos hier </u></a>",
+        "description": "<strong>Kunst.Hand.Werk</strong> <br>Art: Designmarkt <br>Ort: Rufffactory<br>Barrierefrei: Keine Information<br>Outdoor/Indoor: Indoor<br>Haltestelle: Leyendecker Str.: 3, 4<br>Eintritt: 3 Euro<br><a href='Kunst.Hand.Werk' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Name": "Kunst.Hand.Werk",
         "Ort": "Rufffactory",
         "Barrierefrei": "ja",
@@ -73,7 +73,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "description": "<strong>50er-70er Jahre Festival</strong> <br>Art: Designmarkt <br>Ort: Rheinuferpromenade<br>Barrierefrei: ja<br>Outdoor/Indoor: Outdoor<br>Halstestelle Dom/Hbf: 5, 16, 18, 132, 133, S6, S11, S12, S13, S19<br>Eintritt: 3 Euro<br><a href='https://coelln-antik-design.de/?page_id=32' target='_blank'><u> weitere Infos hier </u></a>",
+        "description": "<strong>50er-70er Jahre Festival</strong> <br>Art: Designmarkt <br>Ort: Rheinuferpromenade<br>Barrierefrei: ja<br>Outdoor/Indoor: Outdoor<br>Halstestelle Dom/Hbf: 5, 16, 18, 132, 133, S6, S11, S12, S13, S19<br>Eintritt: 3 Euro<br><a href='https://coelln-antik-design.de/?page_id=32' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Name": "50er-70er",
         "Ort": "Rheinuferpromenade am Konrad-Adenauer-Ufer zwischen Hohenzollernbrücke und Zoobrücke",
         "Barrierefrei": "ja",
@@ -95,7 +95,7 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "<strong>KunstHandwerkerMarkt Engelshof</strong> <br>Art: Designmarkt <br>Ort: Bürgerzentrum Engelshof e.V.<br>Barrierefrei: Ja<br>Outdoor/Indoor: Outdoor<br>Haltestelle: Westhoven Berliner Str.: 7<br>Eintritt: 5 Euro<br><a href='https://engelshof.net/2018/10/18/01-02-04-kunsthandwerkermarkt-2/' target='_blank'><u> weitere Infos hier </u></a>",
+        "description": "<strong>KunstHandwerkerMarkt Engelshof</strong> <br>Art: Designmarkt <br>Ort: Bürgerzentrum Engelshof e.V.<br>Barrierefrei: Ja<br>Outdoor/Indoor: Outdoor<br>Haltestelle: Westhoven Berliner Str.: 7<br>Eintritt: 5 Euro<br><a href='https://engelshof.net/2018/10/18/01-02-04-kunsthandwerkermarkt-2/' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Name": "KunstHandwerkerMarkt Engelshof",
         "Ort": "Bürgerzentrum Engelshof e.V.",
         "Barrierefrei": "Ja",
