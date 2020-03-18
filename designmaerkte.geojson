@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "<strong>DIY Design Markt</strong> <br>Art: Designmarkt <br>Ort: BALLONI <br>Barrierefrei: <br>Outdoor/Indoor: Indoor <br>Haltestelle: Köln-Ehrenfeld: S12, S13, S19, Regionalbahn; Venloer Straße Gürtel: 141, 142, 143, 3, 4, 13<br>Eintritt: 3 Euro <br><a href='DIY MARKT' target='_blank'><u> weitere Infos findest Du hier </u></a>",
+        "description": "<strong>DIY Design Markt</strong> <br>Art: Designmarkt <br>Ort: BALLONI <br>Barrierefrei: <br>Outdoor/Indoor: Indoor <br>Haltestelle: Köln-Ehrenfeld: S12, S13, S19, Regionalbahn; Venloer Straße Gürtel: 141, 142, 143, 3, 4, 13<br>Eintritt: 3 Euro <br><a href='https://diy-markt.com/portfolio_page/koeln-designmarkt/' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Name": "DIY Design Markt",
         "Ort": "BALLONI",
         "Barrierefrei": "",
@@ -26,7 +26,7 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "<strong>Stijlmarkt</strong> <br>Art: Designmarkt <br>Ort: Carkswerk Victoria<br>Barrierefrei: ja<br>Outdoor/Indoor: Indoor<br>Haltestelle: Schanzenstraße/Schauspielhaus: 150, Keupstraße: 4<br>Eintritt: <br><a href='Stijlmarkt' target='_blank'><u> weitere Infos findest Du hier </u></a>",
+        "description": "<strong>Stijlmarkt</strong> <br>Art: Designmarkt <br>Ort: Carkswerk Victoria<br>Barrierefrei: ja<br>Outdoor/Indoor: Indoor<br>Haltestelle: Schanzenstraße/Schauspielhaus: 150, Keupstraße: 4<br>Eintritt: <br><a href='https://stijlmarkt.de/koeln/' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Name": "Stijlmarkt",
         "Ort": "Carlswerk Victoria",
         "Barrierefrei": "ja",
@@ -48,7 +48,7 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "<strong>Kunst.Hand.Werk</strong> <br>Art: Designmarkt <br>Ort: Rufffactory<br>Barrierefrei: Keine Information<br>Outdoor/Indoor: Indoor<br>Haltestelle: Leyendecker Str.: 3, 4<br>Eintritt: 3 Euro<br><a href='Kunst.Hand.Werk' target='_blank'><u> weitere Infos findest Du hier </u></a>",
+        "description": "<strong>Kunst.Hand.Werk</strong> <br>Art: Designmarkt <br>Ort: Rufffactory<br>Barrierefrei: Keine Information<br>Outdoor/Indoor: Indoor<br>Haltestelle: Leyendecker Str.: 3, 4<br>Eintritt: 3 Euro<br><a href='https://www.koelner.de/sonstiges/termine/kunst-hand-werk-2020.578226/' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Name": "Kunst.Hand.Werk",
         "Ort": "Rufffactory",
         "Barrierefrei": "ja",
