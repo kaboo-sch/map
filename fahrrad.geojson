@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "Fahrradmarkt",
-        "description": "<strong>Kölner Fahrradmarkt</strong> <br>Art: Fahrradmarkt  <br> Ort: Neptunplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Körnerstraße mit den Linien 3, 4 <br>Eintritt: 0 Euro <br><a href='http://www.fahrradmarkt-koeln.de/termine/' target='_blank'><u> weitere Infos findest Du hier </u></a>",
+        "description": "<strong>Kölner Fahrradmarkt</strong> <br>Art: Fahrradmarkt  <br> Ort: Neptunplatz <br>Zeit: 25.01.2020, 15.02.2020, 21.03.2020<br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Körnerstraße mit den Linien 3, 4 <br>Eintritt: 0 Euro <br><a href='http://www.fahrradmarkt-koeln.de/termine/' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Ort": "Neptunplatz",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
@@ -27,7 +27,7 @@
       "type": "Feature",
       "properties": {
         "name": "Fahrradmarkt",
-        "description": "<strong>Kölner Fahrradmarkt</strong> <br>Art: Fahrradmarkt  <br> Ort: Bürgerpark, Barcelona-Allee/ Rückseite Kalkarkaden <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Kalk Post mit den Linien 1, 9<br>Eintritt: 0 Euro <br><a href='http://www.fahrradmarkt-koeln.de/termine/' target='_blank'><u> weitere Infos findest Du hier </u></a>",
+        "description": "<strong>Kölner Fahrradmarkt</strong> <br>Art: Fahrradmarkt  <br> Ort: Bürgerpark, Barcelona-Allee/ Rückseite Kalkarkaden <br>Zeit: 28.03.2020, 25.04.2020, 23.05.2020, 27.06.2020<br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Kalk Post mit den Linien 1, 9<br>Eintritt: 0 Euro <br><a href='http://www.fahrradmarkt-koeln.de/termine/' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Ort": "Bürgerpark Kalk",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
@@ -49,7 +49,7 @@
       "type": "Feature",
       "properties": {
         "name": "Fahrradmarkt Nippes",
-        "description": "<strong>Fahrradmarkt Nippes</strong> <br>Art: Fahrradmarkt  <br> Ort: Vorplatz Agneskirche/Neusser Platz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Ebertplatz: 12, 15, 16, 18, 127, 140<br>Eintritt: 0 Euro <br><a href='https://www.fahrradmarkt-koeln.de/termine/' target='_blank'><u> weitere Infos findest Du hier </u>/</a>",
+        "description": "<strong>Fahrradmarkt Nippes</strong> <br>Art: Fahrradmarkt  <br> Ort: Vorplatz Agneskirche/Neusser Platz <br>Zeit: 04.04.20, 02.05.20, 06.06.20, 8 bis 16 Uhr <br> Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Ebertplatz: 12, 15, 16, 18, 127, 140<br>Eintritt: 0 Euro <br><a href='https://www.fahrradmarkt-koeln.de/termine/' target='_blank'><u> weitere Infos findest Du hier </u>/</a>",
         "Ort": "Vorplatz Agneskirche/Neusser Platz",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
@@ -71,7 +71,7 @@
       "type": "Feature",
       "properties": {
         "name": "Fahrradmarkt Innenstadt",
-        "description": "<strong>Fahrradmarkt Innenstadt</strong> <br>Art: Fahrradmarkt  <br> Ort: Friesenplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Friesenplatz: 3, 4, 5, 12, 15, 172, 173<br>Eintritt: 0 Euro <br><a href='https://www.fahrradmarkt-koeln.de/termine/' target='_blank'><u> weitere Infos findest Du hier </u></a>",
+        "description": "<strong>Fahrradmarkt Innenstadt</strong> <br>Art: Fahrradmarkt  <br> Ort: Friesenplatz <br>Zeit: 14.03.20, 11.04.20, 09.05.20, 13.06.20, 8 bis 16 Uhr<br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Friesenplatz: 3, 4, 5, 12, 15, 172, 173<br>Eintritt: 0 Euro <br><a href='https://www.fahrradmarkt-koeln.de/termine/' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Ort": "Friesenplatz",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
@@ -93,7 +93,7 @@
       "type": "Feature",
       "properties": {
         "name": "Fahrradmarkt Südstadt",
-        "description": "<strong>Fahrradmarkt Südstadt</strong> <br>Art: Fahrradmarkt  <br> Ort: Severinsvorplatz <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Kartäuserhof: 16, 17<br>Eintritt: 0 Euro <br><a href='https://www.fahrradmarkt-koeln.de/termine/' target='_blank'><u> weitere Infos findest Du hier </u></a>",
+        "description": "<strong>Fahrradmarkt Südstadt</strong> <br>Art: Fahrradmarkt  <br> Ort: Severinsvorplatz <br>Zeit: 30.05.20, 8 bis 16 Uhr<br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Kartäuserhof: 16, 17<br>Eintritt: 0 Euro <br><a href='https://www.fahrradmarkt-koeln.de/termine/' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Ort": "Severinsvorplatz",
         "Barrierefrei": "Ja",
         "Outdoor/Indoor": "Outdoor",
