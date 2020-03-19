@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "<strong>MIEZE & KATER - Dein Veedelmarkt</strong> <br>Art: Lifestylemarkt <br>Ort: Club Bahnhof Ehrenfeld <br>Barrierefrei: <br>Outdoor/Indoor: Indoor <br>Haltestelle: Köln-Ehrenfeld: S12, S13, S19, Regionalbahn; Venloer Straße Gürtel: 141, 142, 143, 3, 4, 13<br>Eintritt: 3 Euro <br><a href='Facebook' target='_blank'><u> weitere Infos findest Du hier </u></a>",
+        "description": "<strong>MIEZE & KATER - Dein Veedelmarkt</strong> <br>Art: Lifestylemarkt <br>Ort: Club Bahnhof Ehrenfeld <br>Zeit: 03.05., 19.07. 06.09., 13 - 20 Uhr<br>Barrierefrei: <br>Outdoor/Indoor: Indoor <br>Haltestelle: Köln-Ehrenfeld: S12, S13, S19, Regionalbahn; Venloer Straße Gürtel: 141, 142, 143, 3, 4, 13<br>Eintritt: 3 Euro <br><a href='Facebook' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Name": "MIEZE & KATER - Dein Veedelmarkt",
         "Ort": "Club Bahnhof Ehrenfeld",
         "Barrierefrei": "",
@@ -26,7 +26,7 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "<strong>Der Grüne Markt</strong> <br>Art: Lifestylemarkt <br>Ort: Bumann & SOHN<br>Barrierefrei: ja<br>Outdoor/Indoor: Indoor&Outdoor <br>Haltestelle: Köln-Ehrenfeld: S12, S13, S19, Regionalbahn; Venloer Straße Gürtel: 141, 142, 143, 3, 4, 13<br>Eintritt: <br><a href='Facebook' target='_blank'><u> weitere Infos findest Du hier </u></a>",
+        "description": "<strong>Der Grüne Markt</strong> <br>Art: Lifestylemarkt <br>Ort: Bumann & SOHN<br>Zeit: 05.04., 12 - 19 Uhr<br>Barrierefrei: ja<br>Outdoor/Indoor: Indoor&Outdoor <br>Haltestelle: Köln-Ehrenfeld: S12, S13, S19, Regionalbahn; Venloer Straße Gürtel: 141, 142, 143, 3, 4, 13<br>Eintritt: <br><a href='Facebook' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Name": "Der Grüne Markt",
         "Ort": "Bumann & SOHN",
         "Barrierefrei": "ja",
@@ -48,7 +48,7 @@
      {
       "type": "Feature",
       "properties": {
-        "description": "<strong>Lifestyle! Rodenkirchen</strong> <br>Art: Lifestylemarkt <br>Ort: Maternusplatz<br>Barrierefrei: ja<br>Outdoor/Indoor: Outdoor <br>Haltestelle: Maternusplatz: 131, 134, 135<br>Eintritt: <br><a href='https://coelln-antik-design.de/?page_id=13' target='_blank'><u> weitere Infos findest Du hier </u></a>",
+        "description": "<strong>Lifestyle! Rodenkirchen</strong> <br>Art: Lifestylemarkt <br>Ort: Maternusplatz<br>Zeit: 21.05., 22.05., 11 - 18 Uhr<br>Barrierefrei: ja<br>Outdoor/Indoor: Outdoor <br>Haltestelle: Maternusplatz: 131, 134, 135<br>Eintritt: <br><a href='https://coelln-antik-design.de/?page_id=13' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Name": "Lifestyle! Rodenkirchen",
         "Ort": "Maternusplatz",
         "Barrierefrei": "ja",
@@ -70,7 +70,7 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "<strong>Lifestyle! Rudolfplatz</strong> <br>Art: Lifestylemarkt <br>Ort: Rudolfplatz<br>Barrierefrei: ja<br>Outdoor/Indoor: Outdoor <br>Haltestelle Rudolfplatz: 1, 7, 12, 15, 16, 136, 146 <br>Eintritt: <br><a href='https://coelln-antik-design.de/?page_id=1193' target='_blank'><u> weitere Infos findest Du hier </u></a>",
+        "description": "<strong>Lifestyle! Rudolfplatz</strong> <br>Art: Lifestylemarkt <br>Ort: Rudolfplatz<br>Zeit: 02.-05.05.04., 15.-18.10., 11 bis 18 Uhr<br>Barrierefrei: ja<br>Outdoor/Indoor: Outdoor <br>Haltestelle Rudolfplatz: 1, 7, 12, 15, 16, 136, 146 <br>Eintritt: <br><a href='https://coelln-antik-design.de/?page_id=1193' target='_blank'><u> weitere Infos findest Du hier </u></a>",
         "Name": "Lifestyle! Rudolfplatz",
         "Ort": "Rudolfplatz",
         "Barrierefrei": "ja",
