@@ -1,5 +1,5 @@
 # Markets *of* Cologne
-#### Die interaktive Flohmarkt-Karte von Köln
+**Die interaktive Flohmarkt-Karte von Köln**
 
 ## Projekt
 Wir haben es uns zur Aufgabe gemacht Kölner Märkte aller Art, sei es ein Mädchenflohmarkt, ein Designermarkt oder ein Antiquitätenmarkt, auf eine Karte zu packen. Das vereinfacht die Suche nach dem perfekten Markt für jegliche Interessensfelder. 
