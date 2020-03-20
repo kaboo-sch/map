@@ -14,7 +14,7 @@ https://kaboo-sch.github.io/map/start.html
 ## Probleme 
 * Die Zahlen werden beim überlappen von Clustern nicht mehr angezeigt
 * Radius der Geojson Punkte ist unspezifisch, dadurch öffnen sich mehrere Pop-Ups gleichzeitig
-* Bei der Filterfunktion können geclusterte Punkte nicht gefiltert werden, sonder werden erst nach ranzoomen entfernt
+* Bei der Filterfunktion können geclusterte Punkte nicht gefiltert werden, sondern werden erst nach ranzoomen entfernt
 * Standort funktioniert nur bei Endgeräten, die über GPS verfügen
 
 ## mögliche Erweiterungen
@@ -28,5 +28,5 @@ https://kaboo-sch.github.io/map/start.html
 * Kathrin Schunn
 
 Universität zu Köln
-Studiengang Medieninformatik
+Medieninformatik
 AM2: Modellierung und digitale Karten
