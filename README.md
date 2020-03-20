@@ -28,5 +28,7 @@ https://kaboo-sch.github.io/map/start.html
 * Kathrin Schunn
 
 Universität zu Köln
+
 Studiengang Medieninformatik
+
 AM2: Modellierung und digitale Karten
