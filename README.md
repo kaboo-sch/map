@@ -1,7 +1,7 @@
 # Markets *of* Cologne
 #### Die interaktive Flohmarkt-Karte von Köln
 
-##Projekt
+## Projekt
 Wir haben es uns zur Aufgabe gemacht Kölner Märkte aller Art, sei es ein Mädchenflohmarkt, ein Designermarkt oder ein Antiquitätenmarkt, auf eine Karte zu packen. Das vereinfacht die Suche nach dem perfekten Markt für jegliche Interessensfelder. 
 ![Screenshot Karte](https://github.com/kaboo-sch/map/blob/master/Icons/screenshot.JPG "Screenshot Karte")
 
@@ -21,3 +21,12 @@ https://kaboo-sch.github.io/map/start.html
 * Filterfunktion nach Datum
 * mobile Anwendung entwickeln
 * Service für mehrere Städte anbieten
+
+## Team
+* Viola Müter
+* Katrin Ackermann 
+* Kathrin Schunn
+
+Universität zu Köln
+Studiengang Medieninformatik
+AM2: Modellierung und digitale Karten
