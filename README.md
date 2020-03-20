@@ -5,7 +5,7 @@
 Wir haben es uns zur Aufgabe gemacht Kölner Märkte aller Art, sei es ein Mädchenflohmarkt, ein Designermarkt oder ein Antiquitätenmarkt, auf eine Karte zu packen. Das vereinfacht die Suche nach dem perfekten Markt für jegliche Interessensfelder. 
 ![Screenshot Karte](https://github.com/kaboo-sch/map/blob/master/Icons/screenshot.JPG "Screenshot Karte")
 
-Markets *of* Cologne soll kein abgeschlossenes Projekt sein, sondern ständig erweitert werden. Deshalb haben wir ein Kontaktmenü eingerichtet, damit Ideen, Vorschläge und Anregungen mit uns geteilt werden können und die Karte somit weiterentwickelt werden kann. 
+Markets *of* **Cologne** soll kein abgeschlossenes Projekt sein, sondern ständig erweitert werden. Deshalb haben wir ein Kontaktmenü eingerichtet, damit Ideen, Vorschläge und Anregungen mit uns geteilt werden können und die Karte somit weiterentwickelt werden kann. 
 
 
 ## Demo
