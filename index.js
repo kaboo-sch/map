@@ -76,10 +76,10 @@ map.on('mouseenter', 'Fahrradmarkt', function () {
 map.on('mouseleave', 'Fahrradmarkt', function () {
     map.getCanvas().style.cursor = '';
 });
-
  //Fahrradmarkt Ende
 
 //Flohmarkt Beginn
+//Source der Geoinformationen wird hinzugefügt über URL 
 map.on('load', function() {
     map.addSource('Flohmarkt', {
         'type': 'geojson',
@@ -88,7 +88,8 @@ map.on('load', function() {
         clusterMaxZoom: 10,
         clusterRadius: 40
     });
-
+    
+//Icons werden von Github-Repository importiert
     map.loadImage(
         'Icons\\Flohmarkt.png',
         function (error, image) {
@@ -96,6 +97,7 @@ map.on('load', function() {
             map.addImage('Flohmarkt', image)
         });
 
+//Cluster-Circle wird als Layer erstellt für "Flohmarkt"
     map.addLayer({
         id: 'FlohmarktCL',
         type: 'circle',
@@ -120,7 +122,8 @@ map.on('load', function() {
 
         }
     });
-
+    
+//entclusterter Layer wird erstellt für "Flohmarkt"
     map.addLayer({
         id: 'Flohmarkt',
         type: 'symbol',
@@ -134,36 +137,40 @@ map.on('load', function() {
     });
 });
 
+//Popup-Funktion wird der Karte hinzugefügt
+//Description kommt aus der Geojson
 map.on('click', 'Flohmarkt', function (e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
     var description = e.features[0].properties.description;
     
-// Ensure that if the map is zoomed out such that multiple
-// copies of the feature are visible, the popup appears
-// over the copy being pointed to.
+// Wenn die Karte rausgezoomt ist, wird das Popup
+// über den schon geöffneten Kopien angezeigt
     while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
     }
-
     new mapboxgl.Popup()
         .setLngLat(coordinates)
         .setHTML(description)
         .addTo(map);
 });
+
+// Beim Anklicken eines Punktes, wird dieser zentriert
 map.on('click', 'Flohmarkt', function(e) {
     map.flyTo({ center: e.features[0].geometry.coordinates });
 });
-// Change the cursor to a pointer when the mouse is over the places layer.
+
+//Cursor wird als Pointer dargestellt, wenn er über einen Punkt kommt
 map.on('mouseenter', 'Flohmarkt', function () {
     map.getCanvas().style.cursor = 'pointer';
 });
 
-// Change it back to a pointer when it leaves.
+// Cursor Style wird nach Verlassen des Punktes wieder in vorheriger Form dargestellt
 map.on('mouseleave', 'Flohmarkt', function () {
     map.getCanvas().style.cursor = '';
 });
 
-
+// Beim Anklicken eines Cluster-Punktes wird die Karte herangezoomt
+//So werden die Cluster-Punkte in einzelne Punkte geteilt
 map.on('click', 'FlohmarktCL', function(e) {
     var features = map.queryRenderedFeatures(e.point, {
         layers: ['FlohmarktCL']
@@ -188,8 +195,6 @@ map.on('mouseenter', 'FlohmarktCL', function() {
 map.on('mouseleave', 'FlohmarktCL', function() {
     map.getCanvas().style.cursor = '';
 });
-
-
 //Flohmarkt Ende
 
 //Antikmarkt Anfang
@@ -251,26 +256,21 @@ map.on('click', 'Antikmarkt', function(e) {
 map.on('click', 'Antikmarkt', function (e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
     var description = e.features[0].properties.description;
-
-// Ensure that if the map is zoomed out such that multiple
-// copies of the feature are visible, the popup appears
-// over the copy being pointed to.
+    
     while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
     }
-
     new mapboxgl.Popup()
         .setLngLat(coordinates)
         .setHTML(description)
         .addTo(map);
 });
 
-// Change the cursor to a pointer when the mouse is over the places layer.
+
 map.on('mouseenter', 'Antikmarkt', function () {
     map.getCanvas().style.cursor = 'pointer';
 });
 
-// Change it back to a pointer when it leaves.
 map.on('mouseleave', 'Antikmarkt', function () {
     map.getCanvas().style.cursor = '';
 });
@@ -302,6 +302,7 @@ map.on('mouseleave', 'AntikmarktCL', function() {
 });
 //Antikmarkt Ende
 
+//Designmarkt Beginn
 map.on('load', function() {
     map.addSource('Designmarkt', {
         'type': 'geojson',
@@ -358,9 +359,6 @@ map.on('click', 'Designmarkt', function (e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
     var description = e.features[0].properties.description;
 
-// Ensure that if the map is zoomed out such that multiple
-// copies of the feature are visible, the popup appears
-// over the copy being pointed to.
     while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
    }
@@ -374,18 +372,13 @@ map.on('click', 'Designmarkt', function(e) {
     map.flyTo({ center: e.features[0].geometry.coordinates });
 });
 
-// Change the cursor to a pointer when the mouse is over the places layer.
 map.on('mouseenter', 'Designmarkt', function () {
     map.getCanvas().style.cursor = 'pointer';
 });
 
-// Change it back to a pointer when it leaves.
 map.on('mouseleave', 'Designmarkt', function () {
     map.getCanvas().style.cursor = '';
 });
-
-
-
 
 map.on('click', 'DesignmarktCL', function(e) {
     var features = map.queryRenderedFeatures(e.point, {
@@ -411,12 +404,9 @@ map.on('mouseenter', 'DesignmarktCL', function() {
 map.on('mouseleave', 'DesignmarktCL', function() {
     map.getCanvas().style.cursor = '';
 });
-
-
 //Designmarkt Ende
 
 //Beginn Wochenmarkt
-
 map.on('load', function() {
     map.addSource('Wochenmarkt', {
         'type': 'geojson',
@@ -473,10 +463,7 @@ map.on('load', function() {
     map.on('click', 'Wochenmarkt', function (e) {
         var coordinates = e.features[0].geometry.coordinates.slice();
         var description = e.features[0].properties.description;
-
-// Ensure that if the map is zoomed out such that multiple
-// copies of the feature are visible, the popup appears
-// over the copy being pointed to.
+        
         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
             coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
         }
@@ -487,17 +474,14 @@ map.on('load', function() {
             .addTo(map);
     });
 
-// Change the cursor to a pointer when the mouse is over the places layer.
     map.on('mouseenter', 'Wochenmarkt', function () {
         map.getCanvas().style.cursor = 'pointer';
     });
 
-// Change it back to a pointer when it leaves.
     map.on('mouseleave', 'Wochenmarkt', function () {
         map.getCanvas().style.cursor = '';
     });
-
-// inspect a cluster on click
+    
     map.on('click', 'WochenmarktCL', function(e) {
         var features = map.queryRenderedFeatures(e.point, {
             layers: ['WochenmarktCL']
@@ -583,9 +567,6 @@ map.on('load', function() {
         var coordinates = e.features[0].geometry.coordinates.slice();
         var description = e.features[0].properties.description;
 
-// Ensure that if the map is zoomed out such that multiple
-// copies of the feature are visible, the popup appears
-// over the copy being pointed to.
         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
             coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
         }
@@ -595,18 +576,15 @@ map.on('load', function() {
             .setHTML(description)
             .addTo(map);
     });
-
-// Change the cursor to a pointer when the mouse is over the places layer.
+    
     map.on('mouseenter', 'Kinderflohmarkt', function () {
         map.getCanvas().style.cursor = 'pointer';
     });
-
-// Change it back to a pointer when it leaves.
+    
     map.on('mouseleave', 'Kinderflohmarkt', function () {
         map.getCanvas().style.cursor = '';
     });
-
-// inspect a cluster on click
+    
     map.on('click', 'KinderflohmarktCL', function(e) {
         var features = map.queryRenderedFeatures(e.point, {
             layers: ['KinderflohmarktCL']
@@ -635,7 +613,6 @@ map.on('load', function() {
 //Kinderflohmarkt Ende
 
 // Nachtflohmarkt Anfang
-
 map.on('load', function() {
     map.addSource('Lifestylemarkt', {
         'type': 'geojson',
@@ -693,9 +670,6 @@ map.on('load', function() {
         var coordinates = e.features[0].geometry.coordinates.slice();
         var description = e.features[0].properties.description;
 
-// Ensure that if the map is zoomed out such that multiple
-// copies of the feature are visible, the popup appears
-// over the copy being pointed to.
         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
             coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
         }
@@ -705,18 +679,15 @@ map.on('load', function() {
             .setHTML(description)
             .addTo(map);
     });
-
-// Change the cursor to a pointer when the mouse is over the places layer.
+    
     map.on('mouseenter', 'Lifestylemarkt', function () {
         map.getCanvas().style.cursor = 'pointer';
     });
 
-// Change it back to a pointer when it leaves.
     map.on('mouseleave', 'Lifestylemarkt', function () {
         map.getCanvas().style.cursor = '';
     });
 
-// inspect a cluster on click
     map.on('click', 'LiefstylemarktCL', function(e) {
         var features = map.queryRenderedFeatures(e.point, {
             layers: ['LifestylemarktCL']
@@ -742,8 +713,9 @@ map.on('load', function() {
         map.getCanvas().style.cursor = '';
     });
 });
+//Ende Lifestylemarkt
 
-
+//Nachtflohmarkt Beginn
 map.on('load', function() {
     map.addSource('Nachtflohmarkt', {
         'type': 'geojson',
@@ -801,30 +773,24 @@ map.on('load', function() {
         var coordinates = e.features[0].geometry.coordinates.slice();
         var description = e.features[0].properties.description;
 
-// Ensure that if the map is zoomed out such that multiple
-// copies of the feature are visible, the popup appears
-// over the copy being pointed to.
         while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
             coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
         }
-
+        
         new mapboxgl.Popup()
             .setLngLat(coordinates)
             .setHTML(description)
             .addTo(map);
     });
 
-// Change the cursor to a pointer when the mouse is over the places layer.
     map.on('mouseenter', 'Nachtflohmarkt', function () {
         map.getCanvas().style.cursor = 'pointer';
     });
 
-// Change it back to a pointer when it leaves.
     map.on('mouseleave', 'Nachtflohmarkt', function () {
         map.getCanvas().style.cursor = '';
     });
 
-// inspect a cluster on click
     map.on('click', 'NachtflohmarktCL', function(e) {
         var features = map.queryRenderedFeatures(e.point, {
             layers: ['NachtflohmarktCL']
@@ -850,7 +816,61 @@ map.on('load', function() {
         map.getCanvas().style.cursor = '';
     });
 });
+//Nachtflohmarkt Ende
 
+//Beginn Mädchenflohmarkt
+map.on('load', function() {
+    map.addSource('Mädchenflohmarkt', {
+        'type': 'geojson',
+        'data': 'https://kaboo-sch.github.io/map/Maedchenflohmarkt.geojson',
+    });
+
+    map.loadImage(
+        'Icons\\Maedchenflohmarkt.png',
+        function (error, image) {
+            if (error) throw error;
+            map.addImage('Mädchen', image)
+        });
+
+    map.addLayer({
+        'id': 'Mädchenflohmarkt',
+        'type': 'symbol',
+        'source': 'Mädchenflohmarkt',
+        'layout': {
+            'icon-image': 'Mädchen',
+            'icon-allow-overlap': true,
+            'icon-size': 0.04,
+        }
+        });
+});
+
+map.on('click', 'Mädchenflohmarkt', function (e) {
+    var coordinates = e.features[0].geometry.coordinates.slice();
+    var description = e.features[0].properties.description;
+
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+    }
+
+    new mapboxgl.Popup()
+        .setLngLat(coordinates)
+        .setHTML(description)
+        .addTo(map);
+});
+map.on('click', 'Mädchenflohmarkt', function(e) {
+    map.flyTo({ center: e.features[0].geometry.coordinates });
+});
+
+map.on('mouseenter', 'Mädchenflohmarkt', function () {
+    map.getCanvas().style.cursor = 'pointer';
+});
+
+map.on('mouseleave', 'Mädchenflohmarkt', function () {
+    map.getCanvas().style.cursor = '';
+});
+//Ende Mädchenflohmarkt
+
+//Filterfunktion über die ID's der einzelnen MarktLayers 
 var toggleableLayerIds = ['Flohmarkt', 'Fahrradmarkt', 'Wochenmarkt', 'Antikmarkt', 'Designmarkt', 'Kinderflohmarkt', 'Nachtflohmarkt', 'Lifestylemarkt'];
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
