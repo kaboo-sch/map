@@ -871,7 +871,7 @@ map.on('mouseleave', 'Mädchenflohmarkt', function () {
 //Ende Mädchenflohmarkt
 
 //Filterfunktion über die ID's der einzelnen MarktLayers 
-var toggleableLayerIds = ['Flohmarkt', 'Fahrradmarkt', 'Wochenmarkt', 'Antikmarkt', 'Designmarkt', 'Kinderflohmarkt', 'Nachtflohmarkt', 'Lifestylemarkt'];
+var toggleableLayerIds = ['Flohmarkt', 'Fahrradmarkt', 'Wochenmarkt', 'Antikmarkt', 'Designmarkt', 'Kinderflohmarkt', 'Nachtflohmarkt', 'Lifestylemarkt', 'Mädchenflohmarkt'];
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
 
