@@ -22,6 +22,72 @@
           50.935976
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Weiberkram",
+        "description": "<strong>Weiberkram</strong><br>Art: Mädchenflohmarkt<br>Datum: Infos folgen<br> Ort: Arturo Schauspielschule Köln <br>Barrierefrei: Keine Information <br>Outdoor/Indoor: Indoor <br>Haltestelle: Ulrepforte mit 12, 15, 16 <br> Haltestelle: Am Vorgebirgstor mit 142 <br>Eintritt: 3 Euro und Jungs frei! <br><a href='https://weiberkram.org/' target='_blank'><u> weitere Infos findest Du hier </u></a>",
+        "Ort": "Arthuro Schauspielschule Köln",
+        "Barrierefrei": "Keine Information",
+        "Outdoor/Indoor": "Indoor",
+        "Wie komme ich hin?": "Haltestelle Ulrepforte: 12,15,16 und Am Vorgebirgstor: 142",
+        "Wann": "Infos folgen",
+        "Eintritt": "3 Euro",
+        "Link": "https://weiberkram.org/",
+        "Art": "Mädchenflohmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.952175796031951,
+          50.9137489045753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fräulein Klimbim",
+        "description": "<strong>Fräulein Klimbim</strong><br>Art: Mädchenflohmarkt<br>Datum: Infos folgen <br> Ort: Stadthallte Mühlheim <br>Barrierefrei: Keine Information <br>Outdoor/Indoor: Indoor <br>Haltestelle: Wiener Platz mit 4,13,15,18<br>Eintritt: 3 Euro und Jungs frei!<br><a href='https://klimbimundkokolores.com/' target='_blank'><u> weitere Infos findest Du hier </u></a>",
+        "Ort": "Stadthallte Mühlheim",
+        "Barrierefrei": "Keine Information",
+        "Outdoor/Indoor": "Indoor",
+        "Wie komme ich hin?": "Haltestelle Wiener Platz: 3,4,15,18",
+        "Wann": "Infos folgen",
+        "Eintritt": "3 Euro ",
+        "Link": "https://klimbimundkokolores.com/",
+        "Art": "Mädchenflohmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.005050182342529,
+          50.959926958136904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mädchenklamotte",
+        "description": "<strong>Mädchenklamotte</strong><br>Art: Mädchenflohmarkt<br>Datum: Infos folgen <br> Ort: Im Mediapark <br>Barrierefrei: Ja <br>Outdoor/Indoor: Outdoor <br>Haltestelle: Christophstr./Mediapark: 12,15 <br>Eintritt: 3,50 Euro und Jungs frei!<br><a href='https://www.maedchenklamotte.de/termine/' target='_blank'><u> weitere Infos findest Du hier </u></a>",
+        "Ort": "Im Mediapark",
+        "Barrierefrei": "Keine Information",
+        "Outdoor/Indoor": "Outdoor",
+        "Wie komme ich hin?": "Haltestelle Christophstr./Mediapark: 12,15",
+        "Wann": "Infos folgen",
+        "Eintritt": "3,50 Euro",
+        "Link": "https://www.maedchenklamotte.de/termine/",
+        "Art": "Mädchenflohmarkt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.944147944450378,
+          50.94820592981047
+        ]
+      }
     }
   ]
 }
