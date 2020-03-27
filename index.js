@@ -25,6 +25,7 @@ map.addControl(
         trackUserLocation: true
     })
 );
+
 // Fahrradmarkt Beginn
 map.on('load', function() {
     map.addSource('Fahrradmarkt', {
@@ -140,9 +141,9 @@ map.on('click', 'Flohmarkt', function (e) {
 // Ensure that if the map is zoomed out such that multiple
 // copies of the feature are visible, the popup appears
 // over the copy being pointed to.
-    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+   /* while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-    }
+    }*/
 
     new mapboxgl.Popup()
         .setLngLat(coordinates)
